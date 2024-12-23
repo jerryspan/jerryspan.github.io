@@ -35,13 +35,13 @@ I pretty much enjoy teaching and I had the pleasure of offering the following co
 
 
 **Invited course subjects:**
-- [12th Maastricht School on Data Science (2019)]([url](https://project.dke.maastrichtuniversity.nl/datamining/))
+- [12th Maastricht School on Data Science (2019)](https://project.dke.maastrichtuniversity.nl/datamining/)
 
-- [European Agent Systems Summer School 2018: Deep Learning Tutorial ]([url](https://project.dke.maastrichtuniversity.nl/easss/tutorial-materials/))
+- [European Agent Systems Summer School 2018: Deep Learning Tutorial ](https://project.dke.maastrichtuniversity.nl/easss/tutorial-materials/)
 
-- [University of Bremen PIP Summer School 2016]([url](https://dke.maastrichtuniversity.nl/jerry.spanakis/pipss16/))
+- [University of Bremen PIP Summer School 2016](https://dke.maastrichtuniversity.nl/jerry.spanakis/pipss16/)
 
-- [IMA/ZLW & IfU/RWTH Aachen School on Data Mining 2016]([url](https://dke.maastrichtuniversity.nl/jerry.spanakis/aachen16/))
+- [IMA/ZLW & IfU/RWTH Aachen School on Data Mining 2016](https://dke.maastrichtuniversity.nl/jerry.spanakis/aachen16/)
 
 <br>
 
