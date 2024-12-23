@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper with Thales Bertaglia, Catalina Goanta and Anda Iamnitchi on [Influencer Self-Disclosure Practices is accepted at "Online Social Networks and Media"]([url](https://www.sciencedirect.com/science/article/pii/S2468696424000235?dgcid=coauthor))
+Our paper with Thales Bertaglia, Catalina Goanta and Anda Iamnitchi on [Influencer Self-Disclosure Practices is accepted at "Online Social Networks and Media"](https://www.sciencedirect.com/science/article/pii/S2468696424000235?dgcid=coauthor)
