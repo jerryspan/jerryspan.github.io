@@ -6,28 +6,34 @@ inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+🎉 3 papers accepted @ COLING 2025! More info below
 
 ---
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+Just before the holiday break🎄❄️ and I am delighted to share that some of our latest NLP work is making waves 🌊 since we got 3(!) papers accepted at the 31st International Conference on Computational Linguistics (COLING 2025 https://lnkd.in/dR8bgtXu)! Some info on the exceptional work of these A-🌟-M-💫-A-✨-Z-🔥-I-🎉-N-🌈-G-👏 PhD candidates below 👇👇👇
 
-#### Hipster list
+1/ The ultimate PhD paper of Antoine Louis asks "whether to fuse or not to fuse" in an (legal) IR scenario 🔍. BM25 is still a performance beast 💪 in IR, but it's crucial to know when it shines ✨ and where it falls short ⚠️ compared to dense models. In the paper we explore different scenarios and conclude:
+● BM25 = still the 🐎 of search, esp. in zero-shot tasks or when efficiency rules.
+● Fusing models? 🤝 Great for zero-shot—boosts general IR models
+● Got domain-specific data? 🧠 Fine-tune one model forbest results.
 
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
+📑 Paper: https://lnkd.in/dxr2VQQE (w/Gijs van Dijck)
+💻 Code: https://lnkd.in/d8wrEP7i
+🤗 Models: https://lnkd.in/d4RwVVfc
 
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
+2/ Have you noticed how most information retrieval work is in English and Chinese? Well, Antoine and Vageesh noticed the same and as a PhD-side-project worked on delivering ColBERT-XM 🌍 a modular retriever for 81+ languages 🧩 Built w/XMOD encoders & ColBERT’s backbone, it trains on English (high-resource language) and transfers zero-shot to other languages, thereby eliminating the need for language-specific labeled retrieval data.💡✨
 
----
+📑 Paper: https://lnkd.in/dXHKunum (w/Gijs van Dijck)
+💻 Code: https://lnkd.in/dw4N5PdP
+🤗 Model: https://lnkd.in/dHpAN5yR
 
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
+3/ Paweł Mąka's 2nd PhD paper dives into: how do context-aware machine translation models really use context? 🤔 We analyzed attention heads and found:
+🔑 Some are critical for pronoun disambiguation.
+🚀 Fine-tuning these heads = boosted performance!
+This work builds on VOXReality EU project, where we -efficiently- integrate SoTA MT models in AR/VR 🕶️🌐🎮 scenarios, therefore context use is essential.
 
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
+📑 Paper: https://lnkd.in/dc9sVYtn (w/Yusuf Can Semerci, Johannes (Jan) C. Scholtes)
+💻 Code: https://lnkd.in/duNdb5YYt grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
 > —Anais Nin
 
 Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
