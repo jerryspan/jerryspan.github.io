@@ -4,7 +4,7 @@ permalink: /advisees/
 title: talks
 description: 
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 <p data-phid="1069">I have/had the privilege of advising the following researchers (in alphabetical order):</p>
