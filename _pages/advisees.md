@@ -19,7 +19,7 @@ nav_order: 6
 <li data-phid="1075"><a href="https://lucas-ubm.github.io/">Lucas G. Uberti-Bona Marin</a> (PhD, ongoing): Computational techniques to mitigate risks from AI deployment<br /><hr /></li>
 </ul>
 <ul data-phid="1081">
-<li data-phid="1077"><a href="https://www.universiteitleiden.nl/en/staffmembers/constanta-rosca#tab-1" data-phid="1078">Constanta Rosca</a> (PhD, 2019-2024): Digital Arms for Consumer Harms: Mapping Legal and Technical Solutions for Dark Patterns in EU Consumer Law [<a href="http://Digital Arms for Digital Consumer Harms: Mapping Legal and Technical Solutions for Dark Patterns in EU Consumer Law" data-wplink-url-error="true">e-book</a>]</li>
+<li data-phid="1077"><a href="https://www.universiteitleiden.nl/en/staffmembers/constanta-rosca#tab-1" data-phid="1078">Constanta Rosca</a> (PhD, 2019-2024): Digital Arms for Consumer Harms: Mapping Legal and Technical Solutions for Dark Patterns in EU Consumer Law <a href="https://library.maastrichtuniversity.nl/resources/maastricht-university-press/catalog/10-26481-mup-2403/)">(e-book)</a></li>
 <li data-phid="1082"><a href="http://tumanov.co/index" data-phid="1083">Kirill Tumanov</a> (PostDoc, 2020-2021): Combating Childhood Obesity</li>
 </ul>
 <hr/><br>
