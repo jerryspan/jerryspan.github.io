@@ -4,16 +4,16 @@ permalink: /teaching/
 title: teaching
 description: 
 nav: true
-nav_order: 6
+nav_order: 5
 ---
 
 I pretty much enjoy teaching and I had the pleasure of offering the following courses:
 
 **Current courses at Maastricht University (UM) (University College Maastricht (UCM), Maastricht Science Programme (MSP), Department of Advanced Computing Sciences (DACS)):**
 
-- [KEN3450](https://curriculum.maastrichtuniversity.nl/meta/464781/data-analysis) Data Analysis (DACS)
+- [KEN3450]([https://curriculum.maastrichtuniversity.nl/meta/464781/data-analysis](https://curriculum.maastrichtuniversity.nl/meta/485306/data-analysis)) Data Analysis (DACS)
 
-- [KEN2570](https://curriculum.maastrichtuniversity.nl/meta/462901/natural-language-processing) Natural Language Processing (DACS )
+- [KEN2570]([https://curriculum.maastrichtuniversity.nl/meta/462901/natural-language-processing](https://curriculum.maastrichtuniversity.nl/meta/483600/natural-language-processing)) Natural Language Processing (DACS )
 
 - KEN4130/4131/4230/4231 Master AI/DSfDM Project (DACS) (supervisor & examiner)
 
