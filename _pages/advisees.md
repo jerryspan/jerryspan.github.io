@@ -22,6 +22,7 @@ nav_order: 6
 <li data-phid="1077"><a href="https://www.universiteitleiden.nl/en/staffmembers/constanta-rosca#tab-1" data-phid="1078">Constanta Rosca</a> (PhD, 2019-2024): Digital Arms for Consumer Harms: Mapping Legal and Technical Solutions for Dark Patterns in EU Consumer Law [<a href="http://Digital Arms for Digital Consumer Harms: Mapping Legal and Technical Solutions for Dark Patterns in EU Consumer Law" data-wplink-url-error="true">e-book</a>]</li>
 <li data-phid="1082"><a href="http://tumanov.co/index" data-phid="1083">Kirill Tumanov</a> (PostDoc, 2020-2021): Combating Childhood Obesity</li>
 </ul>
+<hr/><br>
 <p data-phid="1084">I had the opportunity to (co)supervise and work with several students on their thesis/internship projects, several of which have led to publications:</p>
 <ul data-phid="1085">
 <li data-phid="1090"><strong data-phid="1038">Alexei Rosca</strong>: "Low-Resource Machine Translation For Moroccan Arabic" (ongoing)</li>
