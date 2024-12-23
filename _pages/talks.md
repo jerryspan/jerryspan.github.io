@@ -21,11 +21,11 @@ nav_order: 4
 <li data-phid="1067">19/9/2023: The role of Generative AI: How Large Language Models (LLMs) like chatGPT can help transform organisations (and existing business models) and what is the role of data in these models, The Data Conference, Athens (<a href="https://presentations.boussias.com/files/_boussias_conferences_content/presentations/business_intelligence/2023_thedata/Spanakis_DataConference23.pdf?_ga=2.43980524.873632586.1702553158-1787940539.1702553158" data-phid="1303">link</a>)</li>
 <li data-phid="1067">15/6/2023: <a href="https://www.unife.it/it/eventi/2023/giugno/conference-on-_digital-vulnerability-in-european-private-law_-conference_ferrara-15-and-16-june-2023-3-003-6.pdf" data-phid="1068">The Detection of Consumer Vulnerability on Digital Markets through Social Computing</a> (w/Catalina Goanta)</li>
 <li data-phid="1069">25/5/2023: The role of Open Science on AI (and vice versa), UM Open Science Festival, panel moderator</li>
-<li data-phid="1070">23/5/2023: "ChatGPT: Superhero or supervillain? Τruths and lies about Large Language Models", <a href="https://www.pintofscience.nl/maastricht-chatgptunleashed" data-phid="1071">Maastricht Pint of Science</a></li>
+<li data-phid="1070">23/5/2023: "ChatGPT: Superhero or supervillain? Τruths and lies about Large Language Models", Maastricht Pint of Science</a></li>
 <li data-phid="1072">13/5/2023: "ChatGPT: The Language Wizard Who Sometimes Can't Spell 'Abracadabra’ - Exploring the Wonders and Woes of Large Language Models (LLMs)", UM DACS Alumni Event</li>
 <li data-phid="1073">8/12/2022: "From NLLP to legal NLP: The Future of the Field", panel at <a href="https://nllpw.org/workshop/program/" data-phid="1074">NLLP workshop</a>, EMNLP 2022 (<a href="https://www.youtube.com/watch?v=pB2nqXNOOIo&amp;t=7h25m">link</a>)</li>
 <li data-phid="1075">13/12/2021: "Discussing the legitimacy of digital market surveillance", online talk (w/ Catalina Goanta)</li>
-<li data-phid="1076">4/6/2021: "Limits of Social Media Algorithms", online talk, National Mathematics Symposium (<a href="https://abacus.utwente.nl/nws/programme.html" data-phid="1077">link</a>)</li>
+<li data-phid="1076">4/6/2021: "Limits of Social Media Algorithms", online talk, National Mathematics Symposium
 <li data-phid="1078">6/5/2021: "Computational methods in Consumer Protection Law", online seminar (w/ Catalina Goanta)</li>
 <li data-phid="1079">18/3/2021: "<span lang="EN-US" xml:lang="EN-US" data-phid="1080">Ethical, fair and unbiased AI: Mission possible?”, online talk (<a href="https://vimeo.com/527441517#t=49m25s" data-phid="1081">link</a>)</span></li>
 <li data-phid="1082">5/6/2020: "Should Data Shape Private Law?" panel member (online)</li>
