@@ -1,12 +1,12 @@
 ---
 layout: post
-title: A long announcement with details
+title: 3 papers accepted @ COLING 2025! Click for more!
 date: 2024-12-19 16:11:00-0400
 inline: false
 related_posts: false
 ---
 
-🎉 3 papers accepted @ COLING 2025! More info below
+🎉 3 papers accepted @ COLING 2025!
 
 ---
 
@@ -33,7 +33,4 @@ Just before the holiday break🎄❄️ and I am delighted to share that some of
 This work builds on VOXReality EU project, where we -efficiently- integrate SoTA MT models in AR/VR 🕶️🌐🎮 scenarios, therefore context use is essential.
 
 📑 Paper: https://lnkd.in/dc9sVYtn (w/Yusuf Can Semerci, Johannes (Jan) C. Scholtes)
-💻 Code: https://lnkd.in/duNdb5YYt grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+💻 Code: https://lnkd.in/duNdb5YY
