@@ -11,7 +11,7 @@ nav_order: 6
 <ul data-phid="1070">
 <li data-phid="1071"><a href="https://www.uu.nl/staff/HGui">Haoyang Gui</a> (PhD, ongoing): Computational Techniques for Social Media Influencers</li>
 <li data-phid="1071"><a href="https://www.maastrichtuniversity.nl/issam">Abderrahmane Issam</a> (PhD, ongoing): Low-resource Neural Machine Translation for non-native speakers</li>
-<li data-phid="1035"><a href="https://www.maastrichtuniversity.nl/p70072559" data-phid="1074">Antoine Louis</a> (PhD, ongoing): Using NLP to bridge the gap between citizens and the law</li>
+<li data-phid="1035"><a href="https://antoinelouis.co/">Antoine Louis</a> (PhD, ongoing): Using NLP to bridge the gap between citizens and the law</li>
 <li data-phid="1071"><a href="https://www.maastrichtuniversity.nl/pm-maka">Pawel Maka</a> (PhD, ongoing): Context-aware Neural Machine Translation</li>
 <li data-phid="1075"><a href="https://www.maastrichtuniversity.nl/p70071664" data-phid="1076">Mado Ntekouli</a> (PhD, ongoing): Network Science of Psychopathology</li>
 <li data-phid="1079"><a href="https://www.maastrichtuniversity.nl/p70072497" data-phid="1080">Vageesh Saxena</a> (PhD, ongoing): AI and Cybercrime (identifying criminal activities on the Internet)</li>
