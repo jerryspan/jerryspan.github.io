@@ -9,17 +9,24 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>@DACS: Paul-Henri Spaaklaan 1, 6229EN, South Tower, C4.013r</p>
+    <p>@LAW: Bouillonstraat 1-3, 6211LH, B2.017B</p>
+    <p>Maastricht, Netherlands</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Currently, I am an assistant professor at the [Department of Advanced Computing Sciences (DACS)](https://www.maastrichtuniversity.nl/research/department-advanced-computing-sciences) and at [Maastricht Law+Tech Lab](https://www.maastrichtuniversity.nl/law-tech-lab) (Faculty of Law), at [Maastricht University (UM)](https://www.maastrichtuniversity.nl/) in the Netherlands. My current work/research lies in the area of Social Computing and includes computational social media modeling, dialogue systems (conversational agents) and information retrieval, topic detection and tracking from text data and pattern discovery from multimodal data sources. More specifically, I am interested into using Large Language Models (like chatGPT) in a controlled way and build useful applications that have added value for all relevant stakeholders.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Current roles/contributions
+- Member of the research area [Cognitive Systems (at DACS/UM)](https://www.maastrichtuniversity.nl/research/department-advanced-computing-sciences/research)
+- Member of the [Maastricht Law and Tech Lab](https://www.maastrichtuniversity.nl/law-and-tech-lab)
+- PI for the EU project [VOXReality](https://voxreality.eu/)
+- Reseacher at the following projects: [NSMD](http://www.nsmd.eu/), [HumanAds](https://humanads.eu/), [RegTech4AI](https://regtech4ai.maastrichtlawtech.eu/)
+- Co-organizer of the [Natural Legal Language Processing (NLLP) Workshop](https://nllpw.org/workshop/)
+- Technical expert for European Commission E-enforcement academy project (supporting Consumer Protection Cooperation ([CPC](https://commission.europa.eu/live-work-travel-eu/consumer-rights-and-complaints/enforcement-consumer-protection/consumer-protection-cooperation-network_en)) and Consumer Product Safety ([CSN](https://commission.europa.eu/business-economy-euro/doing-business-eu/eu-product-safety-and-labelling/product-safety/consumer-product-safety_en)) networks)
+- Coordinator of MaastrichtNLP (MNLP), a reading group for NLP for the whole UM community
+- Member of the I-research domain of Maastricht University
+- Member of the [Open Science Community Maastricht](https://www.openscience-maastricht.nl/)
