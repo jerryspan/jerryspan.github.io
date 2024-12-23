@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /advisees/
-title: talks
+title: advisees/students
 description: 
 nav: true
 nav_order: 6
