@@ -20,9 +20,7 @@
   type: time_table
   contents:
     - title: Assistant Professor
-      institution: Maastricht University
-      <a href="https://www.maastrichtuniversity.nl/DACS"> Department of Advanced Computing Sciences </a>
-      <a href="https://www.maastrichtuniversity.nl/law-tech-lab" > Maastricht Law and Tech Lab <\a>
+      institution: Maastricht University, <a href="https://www.maastrichtuniversity.nl/DACS"> Department of Advanced Computing Sciences </a>, <a href="https://www.maastrichtuniversity.nl/law-tech-lab"> Maastricht Law and Tech Lab <\a>
       year: 12/2016-now
 
     - title: Visiting Researcher
