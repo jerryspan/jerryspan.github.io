@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>@DACS: Paul-Henri Spaaklaan 1, 6229EN, South Tower, C4.013</p>
+    <p>@DACS: Paul-Henri Spaaklaan 1, 6229EN, C4.013</p>
     <p>@LAW: Bouillonstraat 1-3, 6211LH, B2.017B</p>
     <p>Maastricht, Netherlands</p>
 
