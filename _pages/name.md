@@ -7,9 +7,6 @@ nav: false
 nav_order: 10
 ---
 
-
-<h1>A guide to my name</h1>
-
 My first name (Gerasimos) in Greek is written as Γεράσιμος. That stems from the words γέρας + σίμος. Γέρας means honor, award and σίμος means… means. So my first name means “honored”. Γεράσιμος is a very popular name in Kefalonia (the island my mother was born and where I was born and raised) since the patron saint is called Γεράσιμος. Otherwise, it’s not a very common name. Fun fact: There is a version of the name in Russian: Герасим.
 
 How do you pronounce it? The only difficult issue is with the greek Γ (or small-case γ).
