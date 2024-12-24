@@ -21,4 +21,10 @@
   contents:
     - title: Assistant Professor
       institution: Maastricht University, Department of Advanced Computing Sciences and Maastricht Law and Tech Lab
-      year: 2016-now
+      year: 12/2016-now
+
+    - title: Visiting Researcher
+      institution: <a href="https://uofa.ualberta.ca/computing-science"> University of Alberta</a>
+      year: 04/2016-06/2016
+      description:
+        - Research on Recommender Systems for Higher Education
