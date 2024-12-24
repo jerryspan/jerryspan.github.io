@@ -10,7 +10,7 @@
     - name: phone
       value: +31(0)4338-8391
     - name: location
-      value: DACS office: Paul Henri Spaaklaan (C4.013), 6229EN \\ Law office: Bouillonstraat 1-3 (B2.017B), 6211LH) \\ Maastricht, Netherlands
+      value: DACS office: Paul Henri Spaaklaan (C4.013), 6229EN, Law office: Bouillonstraat 1-3 (B2.017B), 6211LH), Maastricht, Netherlands
     - name: Languages
       value: Greek (Native), English (C2), Dutch (B1), German (B1)
 
@@ -21,7 +21,7 @@
       institution: Maastricht University, Department of Advanced Computing Sciences and Maastricht Law and Tech Lab
       year: 12/2016 - today
     - title: Visiting Researcher
-      institution: [University of Alberta](https://uofa.ualberta.ca/computing-science)
+      institution: University of Alberta https://uofa.ualberta.ca/computing-science
       year: 04/2016 - 06/2016
       description:
         - Research on Recommender Systems for Higher Education
@@ -69,14 +69,14 @@
       institution: National Technical University of Athens, School of Electrical & Computer Engineering
       year: 2012
       description:
-        - title: Intelligent Techniques for Text Analysis
+        - disseration title: Intelligent Techniques for Text Analysis
     - title: Diploma (MSc) in Civil (Transport) Engineering
       institution: National Technical University of Athens, School of Civil Engineering
       year: 2012
       description:
-        - Thesis topic: Machine learning in transport optimization problems
+        - τhesis topic: Machine learning in transport optimization problems
     - title: Diploma (MSc) in Electrical and Computer Engineering
       institution: National Technical University of Athens, School of Electrical & Computer Engineering
       year: 2006
       description:
-        - Thesis topic: Neural Networks and Reinforcement Learning
+        - thesis topic: Neural Networks and Reinforcement Learning
