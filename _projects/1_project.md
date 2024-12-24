@@ -1,81 +1,26 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: VOXReality
+description: funded by the European Union
+img: assets/img/voxreality.png
 importance: 1
-category: work
+category: current
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+VOXReality’s goal is to conduct research and develop new AI models to drive future XR interactive experiences, and to deliver these models to the wider European market. These new models will address human-to-human interaction in unidirectional (theatre) and bidirectional (conference) settings, as well as human-to-machine interaction by building the next generation of personal assistants.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+VOXReality will develop large-scale self-supervised models that will be fine-tuned to specific downstream tasks with minimal re-training. At the same time, we will rely on modern training approaches for designing models that include subnetworks with a common representation power but are more targeted towards specific architectures. By leveraging the once-model-for-all concept from the model training (large-scale self-supervision) and deployment (jointly learning sub-networks) perspective, we will be able to provide a catalogue of highly generic models with high representation capacity that will be efficiently specialized for downstream tasks.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+UM (DACS) is the scientific coordinator of the project and our team is responsible for developing state-of-the-art automatic speech recongition (ASR) and neural machine translation (NMT) models with emphasis on non-native speech and the efficient use of context.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Team members are: 
+- Dr. Jerry Spanakis (co-PI)
+- [Dr. Konstantia Zarkogianni](https://www.maastrichtuniversity.nl/k-zarkogianni) (co-PI)
+- [Dr. Yusuf Can Semerci](https://www.maastrichtuniversity.nl/yc-semerci) (scientific and technical coordinator)
+- [Abderrahmane Issam](https://www.maastrichtuniversity.nl/issam) (PhD candidate)
+- [Pawel Maka](https://www.maastrichtuniversity.nl/pm-maka) (PhD candidate)
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+{% cite maka-etal-2024-sequence %}
+{% cite issam-etal-2024-fixed %}
+{% cite mkaka2024analyzing %}
