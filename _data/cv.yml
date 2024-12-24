@@ -37,3 +37,53 @@
       year: 06/2014-11/2016
       description:
         - Research project "Train your brain, think slim" (machine learning techniques to predict unhealthy eating behavior)
+
+    - title: Adjunct Lecturer 
+      institution: <a href="https://www.pem.tuc.gr/">School of Production Engineering and Management</a>, Technical University of Crete
+      year: 10/2013-09/2014
+      description:
+        - Teaching course "Business Intelligence and Knowledge Management"
+
+    - title: Scientific Associate/Lecturer
+      institution: <a href="https://hmu.gr/mta/">Department of Music Technology and Acoustics Engineering</a>, Technological Institute of Crete
+      year: 10/2013-09/2014
+      description:
+        - Teaching courses "Introduction to Programming" and "Multimedia Applications"
+    
+    - title: Software Engineer/Analyst
+      institution: <a href="https://army.gr/organosi/monades-ypiresies/kentro-pliroforikis-ypostirixis-ellinikou-stratou-ke-p-y-e-s/">Centre of Information Technology Support of the Hellenic Army (KEPYES)</a>
+      year: 12/2012-08/2013
+      description:
+        - Maintenance, update, development of the army personnel software system
+
+    - title: Lab Instructor
+      institution: <a href="https://www.ece.ntua.gr/en">School of Electrical and Computer Engineering</a>, National Technical University of Athens
+      year: 09/2007-07/2012
+      description:
+        - Lab instructor for courses Neural Networks and Programming Techniques
+
+    - title: Partner-Administrator of Computing Centre
+      institution: <a href="https://www.ece.ntua.gr/en">School of Electrical and Computer Engineering</a>, National Technical University of Athens
+      year: 04/2004-12/2008
+      description:
+        - Administrator of Computing Centre
+        
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD
+      institution: National Technical University of Athens, <a href="https://www.ece.ntua.gr/en">School of Electrical and Computer Engineering</a>
+      year: 2012
+      description:
+        - disseration title: Intelligent Techniques for Text Analysis
+    - title: Diploma (MSc) in Civil (Transport) Engineering
+      institution: National Technical University of Athens, <a href="https://www.civil.ntua.gr/">School of Civil Engineering</a>
+      year: 2012
+      description:
+        - τhesis topic: Machine learning in transport optimization problems
+    - title: Diploma (MSc) in Electrical and Computer Engineering
+      institution: National Technical University of Athens, <a href="https://www.ece.ntua.gr/en">School of Electrical and Computer Engineering</a>
+      year: 2006
+      description:
+        - thesis topic: Neural Networks and Reinforcement Learning
+
