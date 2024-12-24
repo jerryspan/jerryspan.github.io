@@ -1,15 +1,66 @@
 - title: General Information
   type: map
   contents:
-    - name: Name
+    - name: name
       value: Gerasimos (Jerry) Spanakis
-    - name: Title
-      value: Flaneur, Assistant Professor in Machine Learning and Natural Language Processing
+    - name: title
+      value: Flaneur, Assistant Professor in ML/NLP
     - name: email
       value: jerry.spanakis@maastrichtuniversity.nl
     - name: phone
       value: +31(0)433 88391
-    - name: location
-      value: (DACS) Paul Henri Spaaklaan (C4.013), 6229EN, (LAW) Bouillonstraat 1-3 (B2.017B), 6211LH), Maastricht, Netherlands
-    - name: Languages
+    - name: office (DACS)
+      value: Paul Henri Spaaklaan (C4.013), 6229EN, Maastricht, Netherlands
+    - name: office (LAW)
+      value: Bouillonstraat 1-3 (B2.017B), 6211LH, Maastricht, Netherlands
+    - name: languages
       value: Greek (Native), English (C2), Dutch (B1), German (B1)
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Assistant Professor
+      institution: Maastricht University, Department of Advanced Computing Sciences and Maastricht Law and Tech Lab
+      year: 2016-now
+      
+    - title: Visiting Researcher
+      institution: <a href="https://uofa.ualberta.ca/computing-science">University of Alberta</a>
+      year: 2016
+      description:
+        - Research on Recommender Systems for Higher Education
+
+    - title: Postdoctoral Researcher
+      institution: Maastricht University, Department of Data Science and Knowledge Engineering
+      year: 2014-2016
+      description:
+        - Research project\: \"Train your brain, think slim\" (machine learning techniques to predict unhealthy eating behavior)
+
+    - title: Adjunct Lecturer 
+      institution: School of Production Engineering and Management, Technical University of Crete
+      year: 2013-2014
+      description:
+        - Teaching course\: "\Business Intelligence and Knowledge Management\"
+
+    - title: Scientific Associate/Lecturer
+      institution: Department of Music Technology and Acoustics Engineering, Technological Institute of Crete
+      year: 2013-2014
+      description:
+        - Teaching courses\: "\Introduction to Programming\" and \"Multimedia Applications\"
+    
+    - title: Software Engineer/Analyst
+      institution: Centre of Information Technology Support of the Hellenic Army (KEPYES)
+      year: 2012-2013
+      description:
+        - Maintenance, update, development of the army personnel software system
+
+    - title: Lab Instructor
+      institution: School of Electrical and Computer Engineering, National Technical University of Athens
+      year: 2007-2012
+      description:
+        - Lab instructor for courses Neural Networks and Programming Techniques
+
+    - title: Partner-Administrator of Computing Centre
+      institution: School of Electrical and Computer Engineering, National Technical University of Athens
+      year: 2004-2008
+      description:
+        - Administrator of Computing Centre
