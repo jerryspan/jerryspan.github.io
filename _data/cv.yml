@@ -4,7 +4,7 @@
     - name: name
       value: Gerasimos (Jerry) Spanakis
     - name: title
-      value: Flaneur, Assistant Professor in ML/NLP
+      value: flaneur
     - name: email
       value: jerry.spanakis@maastrichtuniversity.nl
     - name: phone
@@ -33,7 +33,7 @@
         - Research on Recommender Systems for Higher Education
 
     - title: Postdoctoral Researcher
-      institution: Maastricht University, Department of Data Science and Knowledge Engineering
+      institution: Maastricht University, <a href="https://www.maastrichtuniversity.nl/DACS"> Department of Data Science and Knowledge Engineering </a>
       year: 06/2014-11/2016
       description:
         - Research project "Train your brain, think slim" (machine learning techniques to predict unhealthy eating behavior)
