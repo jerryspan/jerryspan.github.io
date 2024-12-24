@@ -2,75 +2,96 @@
   type: map
   contents:
     - name: Full Name
-      value: Gerasimos (Jerry) Spanakis
-    - name: Title
-      value: Flaneur / Assistant Professor in Machine Learning/Natural Language Processing
-    - name: email
-      value: jerry.spanakis@maastrichtuniversity.nl
+      value: Albert Einstein
+    - name: Date of Birth
+      value: 14th March 1879
+    - name: Languages
+      value: English, German
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Assistant Professor
-      institution: Maastricht University, Department of Advanced Computing Sciences and Maastricht Law and Tech Lab
-      year: 2016-now
-    - title: Visiting Researcher
-      institution: <a href="https://uofa.ualberta.ca/computing-science">University of Alberta</a>
-      year: 2016
-      description:
-        - Research on Recommender Systems for Higher Education
-
-    - title: Postdoctoral Researcher
-      institution: Maastricht University, Department of Data Science and Knowledge Engineering
-      year: 2014-2016
-      description:
-        - Research project\: \"Train your brain, think slim\" (machine learning techniques to predict unhealthy eating behavior)
-
-    - title: Adjunct Lecturer 
-      institution: School of Production Engineering and Management, Technical University of Crete
-      year: 2013-2014
-      description:
-        - Teaching course\: "\Business Intelligence and Knowledge Management\"
-
-    - title: Scientific Associate/Lecturer
-      institution: Department of Music Technology and Acoustics Engineering, Technological Institute of Crete
-      year: 2013-2014
-      description:
-        - Teaching courses\: "\Introduction to Programming\" and \"Multimedia Applications\"
-    
-    - title: Software Engineer/Analyst
-      institution: Centre of Information Technology Support of the Hellenic Army (KEPYES)
-      year: 2012-2013
-      description:
-        - Maintenance, update, development of the army personnel software system
-
-    - title: Lab Instructor
-      institution: School of Electrical and Computer Engineering, National Technical University of Athens
-      year: 2007-2012
-      description:
-        - Lab instructor for courses Neural Networks and Programming Techniques
-
-    - title: Partner-Administrator of Computing Centre
-      institution: School of Electrical and Computer Engineering, National Technical University of Athens
-      year: 2004-2008
-      description:
-        - Administrator of Computing Centre
-        
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: National Technical University of Athens, School of Electrical & Computer Engineering
-      year: 2012
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
-        - disseration title: Intelligent Techniques for Text Analysis
-    - title: Diploma (MSc) in Civil (Transport) Engineering
-      institution: National Technical University of Athens, School of Civil Engineering
-      year: 2012
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
       description:
-        - τhesis topic: Machine learning in transport optimization problems
-    - title: Diploma (MSc) in Electrical and Computer Engineering
-      institution: National Technical University of Athens, School of Electrical & Computer Engineering
-      year: 2006
+        - Description 1.
+        - Description 2.
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Professor of Theoretical Physics
+      institution: Institute for Advanced Study, Princeton University
+      year: 1933 - 1955
       description:
-        - thesis topic: Neural Networks and Reinforcement Learning
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Visiting Professor
+      institution: California Institute of Technology, Pasadena, California, US
+      year: 1933
+      description:
+        - Description 1.
+        - Description 2.
+
+    - title: Director
+      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+      year: 1917-1933
+
+    - title: Professor of Theoretical Physics
+      institution: Karl-Ferdinand University, Prague, Czechoslovakia
+      year: 1911 - 1917
+      description:
+
+    - title: Associate Professor of Theoretical Physics
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1909 - 1911
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 1921
+      items:
+        - Nobel Prize in Physics
+        - Matteucci Medal
+    - year: 2029
+      items:
+        - Max Planck Medal
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Topic 1.
+      items:
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
+      items:
+        - Description 1.
+        - Description 2.
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
