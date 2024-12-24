@@ -3,7 +3,7 @@
     "name": "Gerasimos (Jerry) Spanakis",
     "label": "Flaneur",
     "image": "",
-    "email": "jerry.spanakis@maastrichtuniversity.nl,
+    "email": "jerry.spanakis@maastrichtuniversity.nl",
     "phone": "+31(0)4338-83916",
     "url": "https://jerryspan.github.io/",
     "summary": "Assistant Professor in Machine Learning/Natural Language Processing",
@@ -29,6 +29,47 @@
       "url": "https://uofa.ualberta.ca/computing-science",
       "startDate": "2016-04-01",
       "endDate": "2016-06-30",
+      "summary": "research on recommender systems in higher education",
+    }
+  ],
+  [
+    {
+      "name": "Maastricht University, Department of Data Science and Knowledge Engineering",
+      "position": "Postdoctoral Researcher",
+      "url": "https://www.maastrichtuniversity.nl/DACS",
+      "startDate": "2014-06-01",
+      "endDate": "2016-11-30",
+      "summary": "researcher on \"thinkslim\" project: using machine learning for predicting unhealthy eating behavior",
+    }
+  ],
+  [
+    {
+      "name": "Technical University of Crete, School of Production Engineering and Management",
+      "position": "Postdoctoral Researcher",
+      "url": "https://www.pem.tuc.gr/en/home",
+      "startDate": "2013-10-01",
+      "endDate": "2014-09-01",
+      "summary": "teaching course \"Business Intelligence and Knowledge Management\"",
+    }
+  ],
+  [
+    {
+      "name": "Technological Institute of Crete, Department of Music Technology and Acoustics Engineering",
+      "position": "Scientific Associate",
+      "url": "https://www.teicrete.gr/mta/en/",
+      "startDate": "2013-10-01",
+      "endDate": "2014-09-01",
+      "summary": "teaching courses \"Introduction to Programming\" and \"Multimedia Applications\"",
+    }
+  ],
+  [
+    {
+      "name": "Hellenic Army, Centre of Information Technology Support",
+      "position": "Postdoctoral Researcher",
+      "url": "https://army.gr/organosi/monades-ypiresies/kentro-pliroforikis-ypostirixis-ellinikou-stratou-ke-p-y-e-s/",
+      "startDate": "2012-12-01",
+      "endDate": "2013-08-01",
+      "summary": "maintenance, update, development of the army personnel software system",
     }
   ],
   "volunteer": [
