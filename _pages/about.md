@@ -27,7 +27,7 @@ Current roles/contributions
 - PI for the EU project [VOXReality](https://voxreality.eu/)
 - Reseacher at the following projects: [NSMD](http://www.nsmd.eu/), [HumanAds](https://humanads.eu/), [RegTech4AI](https://regtech4ai.maastrichtlawtech.eu/)
 - Co-organizer of the [Natural Legal Language Processing (NLLP) Workshop](https://nllpw.org/workshop/)
-- Technical expert for European Commission E-enforcement academy project (supporting Consumer Protection Cooperation ([CPC](https://commission.europa.eu/live-work-travel-eu/consumer-rights-and-complaints/enforcement-consumer-protection/consumer-protection-cooperation-network_en)) and Consumer Product Safety ([CSN](https://commission.europa.eu/business-economy-euro/doing-business-eu/eu-product-safety-and-labelling/product-safety/consumer-product-safety_en)) networks)
+- Technical expert for European Commission E-enforcement academy project (supporting Consumer Protection Cooperation ([CPC](https://commission.europa.eu/live-work-travel-eu/consumer-rights-and-complaints/enforcement-consumer-protection/consumer-protection-cooperation-network_en)) and Consumer Product Safety ([CSN](https://commission.europa.eu/business-economy-euro/doing-business-eu/eu-product-safety-and-labelling/product-safety_en) networks)
 - Coordinator of MaastrichtNLP (MNLP), a reading group for NLP for the whole UM community
 - Member of the I-research domain of Maastricht University
 - Member of the [Open Science Community Maastricht](https://www.openscience-maastricht.nl/)
