@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>@DACS: Paul-Henri Spaaklaan 1, 6229EN, C4.013</p>
-    <p>@LAW: Bouillonstraat 1-3, 6211LH, B2.017B</p>
+    <p>(DACS)Paul-Henri Spaaklaan 1, 6229EN, C4.013</p>
+    <p>(LAW)Bouillonstraat 1-3, 6211LH, B2.017B</p>
     <p>Maastricht, Netherlands</p>
 
 news: true # includes a list of news items
@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Currently, I am an assistant professor at the [Department of Advanced Computing Sciences (DACS)](https://www.maastrichtuniversity.nl/research/department-advanced-computing-sciences) and at [Maastricht Law+Tech Lab](https://www.maastrichtuniversity.nl/law-tech-lab) (Faculty of Law), at [Maastricht University (UM)](https://www.maastrichtuniversity.nl/) in the Netherlands. My current work/research lies in the area of Social Computing and includes computational social media modeling, dialogue systems (conversational agents) and information retrieval, topic detection and tracking from text data and pattern discovery from multimodal data sources. More specifically, I am interested into using Large Language Models (like chatGPT) in a controlled way and build useful applications that have added value for all relevant stakeholders.
+My name is Gerasimos (or Jerry) Spanakis. You can find a guide to ny name [here](https://jerryspan.github.io/name). Currently, I am an assistant professor at the [Department of Advanced Computing Sciences (DACS)](https://www.maastrichtuniversity.nl/research/department-advanced-computing-sciences) and at [Maastricht Law+Tech Lab](https://www.maastrichtuniversity.nl/law-tech-lab) (Faculty of Law), at [Maastricht University (UM)](https://www.maastrichtuniversity.nl/) in the Netherlands. My current work/research lies in the area of Social Computing and includes computational social media modeling, dialogue systems (conversational agents) and information retrieval, topic detection and tracking from text data and pattern discovery from multimodal data sources. More specifically, I am interested into using Large Language Models (like chatGPT) in a controlled way and build useful applications that have added value for all relevant stakeholders.
 
 Current roles/contributions
 - Member of the research area [Cognitive Systems (at DACS/UM)](https://www.maastrichtuniversity.nl/research/department-advanced-computing-sciences/research)
