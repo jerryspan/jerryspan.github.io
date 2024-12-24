@@ -75,15 +75,15 @@
       institution: National Technical University of Athens, <a href="https://www.ece.ntua.gr/en">School of Electrical and Computer Engineering</a>
       year: 2012
       description:
-        - disseration title: Intelligent Techniques for Text Analysis
+        - disseration title "Intelligent Techniques for Text Analysis"
     - title: Diploma (MSc) in Civil (Transport) Engineering
       institution: National Technical University of Athens, <a href="https://www.civil.ntua.gr/">School of Civil Engineering</a>
       year: 2012
       description:
-        - τhesis topic: Machine learning in transport optimization problems
+        - τhesis topic "Machine learning in transport optimization problems"
     - title: Diploma (MSc) in Electrical and Computer Engineering
       institution: National Technical University of Athens, <a href="https://www.ece.ntua.gr/en">School of Electrical and Computer Engineering</a>
       year: 2006
       description:
-        - thesis topic: Neural Networks and Reinforcement Learning
+        - thesis topic "Neural Networks and Reinforcement Learning"
 
