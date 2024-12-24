@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description: 
 nav: true
-nav_order: 5
+nav_order: 3
 ---
 
 I pretty much enjoy teaching and I had the pleasure of offering the following courses:
