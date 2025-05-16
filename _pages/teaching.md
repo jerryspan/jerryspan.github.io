@@ -13,7 +13,7 @@ I pretty much enjoy teaching and I had the pleasure of offering the following co
 
 - [KEN3450](https://curriculum.maastrichtuniversity.nl/meta/485306/data-analysis) Data Analysis (DACS)
 
-- [KEN2570](hhttps://curriculum.maastrichtuniversity.nl/meta/483600/natural-language-processing) Natural Language Processing (DACS )
+- [KEN2570](https://curriculum.maastrichtuniversity.nl/meta/483600/natural-language-processing) Natural Language Processing (DACS )
 
 - KEN4130/4131/4230/4231 Master AI/DSfDM Project (DACS) (supervisor & examiner)
 
