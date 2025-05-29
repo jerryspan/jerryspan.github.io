@@ -9,8 +9,8 @@ related_posts: false
 
 <br>
 
-1) led by Vageesh "MATCHED – A Multimodal Dataset for Authorship Attribution in Online Escort Advertisements" 📝 [Pre-print](arxiv.org/pdf/2412.13794) 💻 [Code](https://github.com/maastrichtlawtech/MATCHED)
+1) led by Vageesh "MATCHED – A Multimodal Dataset for Authorship Attribution in Online Escort Advertisements" 📝 [Pre-print](https://www.arxiv.org/pdf/2412.13794) 💻 [Code](https://github.com/maastrichtlawtech/MATCHED)
 <br>
 
 
-2) led by Abdu "A Representation Level Analysis of NMT Model Robustness to Grammatical Errors" 📝 [Pre-print](arxiv.org/pdf/2505.21224) 💻 [Code](https://github.com/issam9/nmt-robustness-analysis)
+2) led by Abdu "A Representation Level Analysis of NMT Model Robustness to Grammatical Errors" 📝 [Pre-print](https://www.arxiv.org/pdf/2505.21224) 💻 [Code](https://github.com/issam9/nmt-robustness-analysis)
