@@ -19,8 +19,8 @@ nav_order: 5
 <hr /></li>
 </ul>
 <ul data-phid="1081">
-<li data-phid="1077"><a href="https://www.maastrichtuniversity.nl/p70071664" data-phid="1076">Mado Ntekouli</a> (PhD, 2020-2024): "Bridging individual and group perspectives in psychopathology: computational modeling approaches using ecological momentary assessment data" <a href="https://cris.maastrichtuniversity.nl/en/publications/bridging-individual-and-group-perspectives-in-psychopathology-com">(book)</li>
-<li data-phid="1077"><a href="https://antoinelouis.co/">Antoine Louis</a> (PhD, 2020-2024): Machine Learning Solutions for "Machine learning solutions for improving access to law" <a href="https://cris.maastrichtuniversity.nl/en/publications/machine-learning-solutions-for-improving-access-to-law">(book)</li>
+<li data-phid="1077"><a href="https://www.maastrichtuniversity.nl/p70071664" data-phid="1076">Mado Ntekouli</a> (PhD, 2020-2024): "Bridging individual and group perspectives in psychopathology: computational modeling approaches using ecological momentary assessment data" <a href="https://cris.maastrichtuniversity.nl/en/publications/bridging-individual-and-group-perspectives-in-psychopathology-com">(book)</a></li>
+<li data-phid="1077"><a href="https://antoinelouis.co/">Antoine Louis</a> (PhD, 2020-2024): Machine Learning Solutions for "Machine learning solutions for improving access to law" <a href="https://cris.maastrichtuniversity.nl/en/publications/machine-learning-solutions-for-improving-access-to-law">(book)</a></li>
 <li data-phid="1077"><a href="https://www.universiteitleiden.nl/en/staffmembers/constanta-rosca#tab-1" data-phid="1078">Constanta Rosca</a> (PhD, 2019-2024): Digital Arms for Consumer Harms: Mapping Legal and Technical Solutions for Dark Patterns in EU Consumer Law <a href="https://library.maastrichtuniversity.nl/resources/maastricht-university-press/catalog/10-26481-mup-2403/)">(e-book)</a></li>
 <li data-phid="1082"><a href="http://tumanov.co/index" data-phid="1083">Kirill Tumanov</a> (PostDoc, 2020-2021): Combating Childhood Obesity</li>
 </ul>
