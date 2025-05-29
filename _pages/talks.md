@@ -8,6 +8,7 @@ nav_order: 4
 ---
 
 <ul data-phid="1066">
+<li data-phid="1113">14/5/2025: "Technical Insights: Understanding the Fundamentals of AI Systems" ([AI Risk management in the EU]([url](https://www.eipa.eu/courses/artificial-intelligence/ai-risk-management-in-the-eu-3/)), European Institure for Public Administration, Maastricht)</li>
 <li data-phid="1113">25/10/2024: "Automated Transparency: A Legal and Empirical Analysis of the Digital Services Act Transparency Database" (online, DSA Transparency Database workshop organized by EC)</li>
 <li data-phid="1113">17-19/10/2024:"A computer science perspective on AI liability" (Maastricht, "The New Product Liability Directive: Doctrinal, Comparative and Interdisciplinary Approaches"</li>
 <li data-phid="1113">14-17/10/2024: "Detection of product safety issues based on consumers’ online reviews" (Brussels,International Product Safety Week, <a href="https://ec.europa.eu/safety-gate/#/screen/pages/safetyWeek2024">IPSW</a> 2024, organized by EC)</li>
