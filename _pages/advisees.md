@@ -9,16 +9,18 @@ nav_order: 5
 
 <p data-phid="1069">I have/had the privilege of advising the following researchers (in alphabetical order):</p>
 <ul data-phid="1070">
+<li data-phid="1077"><a href="https://www.maastrichtuniversity.nl/p70071664" data-phid="1076">Mado Ntekouli</a> (Postdoc, ongoing): Ecological Momentary Assessment Data</li>
 <li data-phid="1071"><a href="https://www.uu.nl/staff/HGui">Haoyang Gui</a> (PhD, ongoing): Computational Techniques for Social Media Influencers</li>
 <li data-phid="1071"><a href="https://www.maastrichtuniversity.nl/issam">Abderrahmane Issam</a> (PhD, ongoing): Low-resource Neural Machine Translation for non-native speakers</li>
-<li data-phid="1035"><a href="https://antoinelouis.co/">Antoine Louis</a> (PhD, ongoing): Using NLP to bridge the gap between citizens and the law</li>
 <li data-phid="1071"><a href="https://www.maastrichtuniversity.nl/pm-maka">Pawel Maka</a> (PhD, ongoing): Context-aware Neural Machine Translation</li>
-<li data-phid="1075"><a href="https://www.maastrichtuniversity.nl/p70071664" data-phid="1076">Mado Ntekouli</a> (PhD, ongoing): Network Science of Psychopathology</li>
 <li data-phid="1079"><a href="https://www.maastrichtuniversity.nl/p70072497" data-phid="1080">Vageesh Saxena</a> (PhD, ongoing): AI and Cybercrime (identifying criminal activities on the Internet)</li>
 <li data-phid="1079"><a href="https://www.maastrichtuniversity.nl/ss-sheth">Samyak Sheth</a> (PhD, ongoing): Access to legal information for laypeople</li>
-<li data-phid="1075"><a href="https://lucas-ubm.github.io/">Lucas G. Uberti-Bona Marin</a> (PhD, ongoing): Computational techniques to mitigate risks from AI deployment<br /><hr /></li>
+<li data-phid="1075"><a href="https://lucas-ubm.github.io/">Lucas G. Uberti-Bona Marin</a> (PhD, ongoing): Computational techniques to mitigate risks from AI deployment<br />
+<hr /></li>
 </ul>
 <ul data-phid="1081">
+<li data-phid="1077"><a href="https://www.maastrichtuniversity.nl/p70071664" data-phid="1076">Mado Ntekouli</a> (PhD, 2020-2024): "Bridging individual and group perspectives in psychopathology: computational modeling approaches using ecological momentary assessment data" <a href="https://cris.maastrichtuniversity.nl/en/publications/bridging-individual-and-group-perspectives-in-psychopathology-com">(book)</li>
+<li data-phid="1077"><a href="https://antoinelouis.co/">Antoine Louis</a> (PhD, 2020-2024): Machine Learning Solutions for "Machine learning solutions for improving access to law" <a href="https://cris.maastrichtuniversity.nl/en/publications/machine-learning-solutions-for-improving-access-to-law">(book)</li>
 <li data-phid="1077"><a href="https://www.universiteitleiden.nl/en/staffmembers/constanta-rosca#tab-1" data-phid="1078">Constanta Rosca</a> (PhD, 2019-2024): Digital Arms for Consumer Harms: Mapping Legal and Technical Solutions for Dark Patterns in EU Consumer Law <a href="https://library.maastrichtuniversity.nl/resources/maastricht-university-press/catalog/10-26481-mup-2403/)">(e-book)</a></li>
 <li data-phid="1082"><a href="http://tumanov.co/index" data-phid="1083">Kirill Tumanov</a> (PostDoc, 2020-2021): Combating Childhood Obesity</li>
 </ul>
