@@ -27,14 +27,20 @@ nav_order: 5
 <hr/><br>
 <p data-phid="1084">I had the opportunity to (co)supervise and work with several students on their thesis/internship projects, several of which have led to publications:</p>
 <ul data-phid="1085">
-<li data-phid="1090"><strong data-phid="1038">Alexei Rosca</strong>: "Low-Resource Machine Translation For Moroccan Arabic" (ongoing)</li>
-<li data-phid="1090"><strong data-phid="1040">Chloe Chrombach</strong> : "Comparing Methods of Summarization and Evaluation using Dutch Legal Cases data" (ongoing)</li>
-<li data-phid="1090"><strong data-phid="1041">Bas Görritzer</strong> : "Sequence Shortening For Autoregressive Language Modelling (ongoing</li>
-<li data-phid="1090"><strong>Abdulmuizz Abdulrazzak Khalak</strong>: "Identifying factual, legal reasoning and outcome similiarties in legal cases" (ongoing)</li>
+<li data-phid="1090"><strong>Abdulmuizz Abdulrazzak Khalak</strong>: Analyzing Differences And Similarities Between Arabic And Dialectal Arabic Pre-Trained Models (ongoing) </li>
+<li data-phid="1090"><strong>Alexander Prochnow</strong>: Demand Forecasting In Supply Chain Management In The Automotive Aftermarket Industry (ongoing) </li>
+<li data-phid="1090"><strong>Anton Changalidi</strong>: AI Assistant for Regulatory Compliance in Building Designs (ongoing) </li>
+<li data-phid="1090"><strong>Jiska Beuk</strong>: Measuring Bias Against LGBTQ+ Individuals in Dutch Language Models (ongoing) </li>
+<li data-phid="1090"><strong>Leonard Maximilian Eßer</strong>: Linking Transparency And Accountability: Analyzing The Connection Between Tiktok's Terms Of Service And Moderation Decisions (ongoing) </li>
+<li data-phid="1090"><strong>Nicolas Bourrel</strong>: Analysis Of Speech Model Representations: Interpretability And Manipulation Of Speech Attributes (ongoing) </li>
 </ul>
 <hr data-phid="1105" />
 <ul data-phid="1035">
-<li data-phid="1090"><strong data-phid="1039">Amirhossein Jazayeri</strong> (<strong>MSc</strong>): "Clustering and Co-clustering of Multivariate Time-series based on Complex Networks" (2024)</li>
+<li data-phid="1090"><strong>Abdulmuizz Abdulrazzak Khalak (Internship @Law&Tech Lab) </strong>: "Identifying factual, legal reasoning and outcome similiarties in legal cases" (2025)</li>
+  <li data-phid="1090"><strong data-phid="1041">Bas Görritzer (joint s/v with Pawel Maka, MSc)</strong> : "Sequence Shortening for Autoregressive Language Modeling (2025)</li>
+<li data-phid="1090"><strong data-phid="1038">Alexei Rosca (joint s/v with Abderrhmane Issam, MSc)</strong>: "Low-Resource Machine Translation for Moroccan Arabic" (2025)</li>
+<li data-phid="1090"><strong data-phid="1040">Chloe Chrombach (MSc)</strong> : "Optimizing Dutch Legal Text Segmentation and Summarization: A Low-Resource Approach to Enhancing Relevance Extraction in Complex Case Law" (2025)</li>
+<li data-phid="1090"><strong data-phid="1039">Amirhossein Jazayeri</strong> (<strong>joint s/v with Mado Ntekouli, MSc</strong>): "Clustering and Co-clustering of Multivariate Time-series based on Complex Networks" (2024)</li>
 <li data-phid="1090"><strong data-phid="1035">Yuyang Li (MSc)</strong>: "Investigating conversational AI frameworks for enhanced real-time flight information" (2024)</li>
 <li data-phid="1090"><strong data-phid="1036">Elza Strada (BSc)</strong>: "Dutch CrowS-pairs: Extending a challenge dataset for measuring social bias in language models" (2024)</li>
 <li data-phid="1090"><strong data-phid="1037">Vitalijs Tickovs (BSc)</strong>: "Describing The Language Of Hidden Adverting On Social Media" (2024)</li>
