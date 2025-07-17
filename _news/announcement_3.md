@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-2-27 07:59:00-0400
+date: 2025-7-20 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-I will also be giving a practical workshop at eLaw Summer School on Regulating AI in the Single Digital Market on Friday, June 27th 2025. Check the program [here](https://www.paoleiden.nl/cursusaanbod/2025/elaw-summer-school-2025-regulating-ai-in-the-eu-digital-market/)
+I am co-organizing the 7th Natural Legal Language Processing (NLLP) workshop co-locate with EMNLP 2025 in Suzhou, China. Read the [call for papers](https://nllpw.org/workshop/call/). Submission deadline end of August. More info [here](https://nllpw.org/workshop/)
