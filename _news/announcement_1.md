@@ -1,11 +1,11 @@
 ---
 layout: post
-date: 2025-05-29 15:59:00-0400
+date: 2025-07-15 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-2/2 papers accepted ACL2025 (Findings). See you in Vienna 🇦🇹
+I will be attending ACL in Vienna 🇦🇹! Vageesh and Abdu will present the following papers:
 
 <br>
 
