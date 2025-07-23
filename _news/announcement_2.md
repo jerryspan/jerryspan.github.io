@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will be attending [RANLP 2025](https://ranlp.org/ranlp2025/) to present: "Dutch CrowS-Pairs: Adapting a Challenge Dataset for Measuring Social Biases in Language Models for Dutch". This work is the result of the master thesis of Elza Strazda. Pre-print and data coming soon! 
+I will be attending [RANLP 2025](https://ranlp.org/ranlp2025/) to present: "Dutch CrowS-Pairs: Adapting a Challenge Dataset for Measuring Social Biases in Language Models for Dutch". This work is the result of the master thesis of Elza Strazda. 📝 [Pre-print](https://arxiv.org/abs/2507.16442) 💻 [Code & data](https://github.com/jerryspan/Dutch-CrowS-Pairs)
