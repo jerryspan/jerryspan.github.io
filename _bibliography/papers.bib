@@ -28,7 +28,8 @@
     html = "https://aclanthology.org/2025.findings-acl.225/",
 	code = "https://github.com/maastrichtlawtech/MATCHED",
     pages = "4334--4373",
-    ISBN = "979-8-89176-256-5"
+    ISBN = "979-8-89176-256-5",
+	abstract = "Human trafficking (HT) remains a critical issue, with traffickers increasingly leveraging online escort advertisements to advertise victims anonymously. Existing detection methods, including text-based Authorship Attribution (AA), overlook the multimodal nature of these ads, which combine text and images. To bridge this gap, we introduce MATCHED, a multimodal AA dataset comprising 27,619 unique text descriptions and 55,115 unique images sourced from Backpage across seven U.S. cities in four geographic regions. This study extensively benchmarks text-only, vision-only, and multimodal baselines for vendor identification and verification tasks, employing multitask (joint) training objectives that achieve superior classification and retrieval performance on in-sample and out-of-data distribution datasets. The results demonstrate that while text remains the dominant modality, integrating visual features adds stylistic cues that enrich model performance. Moreover, text-image alignment strategies like CLIP and BLIP2 struggle due to low semantic overlap and vague connections between the modalities of escort ads, with end-to-end multimodal training proving more robust. Our findings emphasize the potential of multimodal AA to combat HT, providing Law Enforcement Agencies with robust tools to link advertisements and disrupt trafficking networks."
 }
 
 @inproceedings{issam-etal-2025-representation,
@@ -53,14 +54,6 @@
     abstract = "Understanding robustness is essential for building reliable NLP systems. Unfortunately, in the context of machine translation, previous work mainly focused on documenting robustness failures or improving robustness. In contrast, we study robustness from a model representation perspective by looking at internal model representations of ungrammatical inputs and how they evolve through model layers. For this purpose, we perform Grammatical Error Detection (GED) probing and representational similarity analysis. Our findings indicate that the encoder first detects the grammatical error, then corrects it by moving its representation toward the correct form. To understand what contributes to this process, we turn to the attention mechanism where we identify what we term *Robustness Heads*. We find that *Robustness Heads* attend to interpretable linguistic units when responding to grammatical errors, and that when we fine-tune models for robustness, they tend to rely more on *Robustness Heads* for updating the ungrammatical word representation."
 }
 
-@article{issam2025representation,
-	title        = {A Representation Level Analysis of NMT Model Robustness to Grammatical Errors},
-	author       = {Issam, Abderrahmane and Semerci, Yusuf Can and Scholtes, Jan and Spanakis, Gerasimos},
-	year         = 2025,
-	journal      = {ACL 2025 (forthcoming)},
-	arxiv        = {2505.21224},
-	mon          = {jul}
-}
 @article{saxena2025responsible,
 	title        = {Responsible guidelines for authorship attribution tasks in NLP},
 	author       = {Saxena, Vageesh and Tam{\`o}-Larrieux, Aurelia and Van Dijck, Gijs and Spanakis, Gerasimos},
@@ -458,6 +451,7 @@
 	address      = {Abu Dhabi, UAE},
 	pages        = {4293--4312},
 	html         = {https://aclanthology.org/2025.coling-main.290/},
+	code = {https://github.com/maastrichtlawtech/fusion},
 	editor       = {Rambow, Owen  and Wanner, Leo  and Apidianaki, Marianna  and Al-Khalifa, Hend  and Eugenio, Barbara Di  and Schockaert, Steven}
 }
 @inproceedings{hagag-etal-2024-legallens,
@@ -516,6 +510,7 @@
 	address      = {Abu Dhabi, UAE},
 	pages        = {6348--6377},
 	html         = {https://aclanthology.org/2025.coling-main.424/},
+	code = {https://github.com/Pawel-M/context-mt-attention-analysis},
 	editor       = {Rambow, Owen  and Wanner, Leo  and Apidianaki, Marianna  and Al-Khalifa, Hend  and Eugenio, Barbara Di  and Schockaert, Steven}
 }
 @inproceedings{woszczyk2018maasim,
