@@ -1,8 +1,10 @@
 ---
 layout: post
-date: 2025-7-20 07:59:00-0400
+date: 2025-10-15 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-I am co-organizing the 7th Natural Legal Language Processing (NLLP) workshop co-locate with EMNLP 2025 in Suzhou, China. Read the [call for papers](https://nllpw.org/workshop/call/). Submission deadline end of August. More info [here](https://nllpw.org/workshop/)
+I will be giving two talks:
+- Tuesday, 21st October 2025 1500-1630: [Artificial Intelligence in Open Science]([url](https://yerun.eu/event/artificial-intelligence-in-open-science-a-yerun-webinar-during-international-open-access-week/)): A YERUN Webinar During International Open Access Week (Panel) - free registration
+- Monday, 17th November 2025: European Institute of Public Administration (EIPA): [AI Risk Management ]([url](https://www.eipa.eu/courses/artificial-intelligence/))
