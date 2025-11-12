@@ -1,5 +1,101 @@
 #abstract, altmetric, arxiv, bibtex_show, blog, code, dimensions, doi, eprint, html, isbn, pdf, pmid, poster, slides, supp, video, and website.
 
+@inproceedings{maka-etal-2025-train,
+    title = "You Are What You Train: Effects of Data Composition on Training Context-aware Machine Translation Models",
+    author = "Maka, Pawel  and
+      Semerci, Yusuf Can  and
+      Scholtes, Jan  and
+      Spanakis, Gerasimos",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    html = "https://aclanthology.org/2025.emnlp-main.1394/",
+	code = "https://github.com/Pawel-M/data-composition",
+    doi = "10.18653/v1/2025.emnlp-main.1394",
+    pages = "27402--27425",
+    ISBN = "979-8-89176-332-6",
+    abstract = "Achieving human-level translations requires leveraging context to ensure coherence and handle complex phenomena like pronoun disambiguation. Sparsity of contextually rich examples in the standard training data has been hypothesized as the reason for the difficulty of context utilization. In this work, we systematically validate this claim in both single- and multilingual settings by constructing training datasets with a controlled proportions of contextually relevant examples. We demonstrate a strong association between training data sparsity and model performance confirming sparsity as a key bottleneck. Importantly, we reveal that improvements in one contextual phenomenon do no generalize to others. While we observe some cross-lingual transfer, it is not significantly higher between languages within the same sub-family. Finally, we propose and empirically evaluate two training strategies designed to leverage the available data. These strategies improve context utilization, resulting in accuracy gains of up to 6 and 8 percentage points on the ctxPro evaluation in single- and multilingual settings respectively."
+}
+
+@inproceedings{issam-etal-2025-dtw,
+    title = "{DTW}-Align: Bridging the Modality Gap in End-to-End Speech Translation with Dynamic Time Warping Alignment",
+    author = "Issam, Abderrahmane  and
+      Semerci, Yusuf Can  and
+      Scholtes, Jan  and
+      Spanakis, Gerasimos",
+    editor = "Haddow, Barry  and
+      Kocmi, Tom  and
+      Koehn, Philipp  and
+      Monz, Christof",
+    booktitle = "Proceedings of the Tenth Conference on Machine Translation",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    html = "https://aclanthology.org/2025.wmt-1.11/",
+    doi = "10.18653/v1/2025.wmt-1.11",
+	code ="https://github.com/issam9/DTW-Align",
+    pages = "191--199",
+    ISBN = "979-8-89176-341-8",
+    abstract = "End-to-End Speech Translation (E2E-ST) is the task of translating source speech directly into target text bypassing the intermediate transcription step. The representation discrepancy between the speech and text modalities has motivated research on what is known as bridging the modality gap. State-of-the-art methods addressed this by aligning speech and text representations on the word or token level. Unfortunately, this requires an alignment tool that is not available for all languages. Although this issue has been addressed by aligning speech and text embeddings using nearest-neighbor similarity search, it does not lead to accurate alignments. In this work, we adapt Dynamic Time Warping (DTW) for aligning speech and text embeddings during training. Our experiments demonstrate the effectiveness of our method in bridging the modality gap in E2E-ST. Compared to previous work, our method produces more accurate alignments and achieves comparable E2E-ST results while being significantly faster. Furthermore, our method outperforms previous work in low resource settings on 5 out of 6 language directions."
+}
+
+@inproceedings{esser-spanakis-2025-linking,
+    title = "Linking Transparency and Accountability: Analysing The Connection Between {T}ik{T}ok{'}s Terms of Service and Moderation Decisions",
+    author = "E{\ss}er, Leonard  and
+      Spanakis, Gerasimos",
+    editor = "Aletras, Nikolaos  and
+      Chalkidis, Ilias  and
+      Barrett, Leslie  and
+      Goanț{\u{a}}, C{\u{a}}t{\u{a}}lina  and
+      Preoțiuc-Pietro, Daniel  and
+      Spanakis, Gerasimos",
+    booktitle = "Proceedings of the Natural Legal Language Processing Workshop 2025",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    html = "https://aclanthology.org/2025.nllp-1.28/",
+    doi = "10.18653/v1/2025.nllp-1.28",
+	code = "https://github.com/Leonard-git-things/Transparency-EMNLP",
+    pages = "382--395",
+    ISBN = "979-8-89176-338-8",
+    abstract = "The European Commission{'}s Digital Services Act (DSA) mandates that Very Large Online Platforms (VLOPs), like TikTok, provide Statements of Reason (SoRs) to justify their content moderation decisions in an attempt to enhance transparency and accountability for these platforms. However, we can often notice a gap between these automated decisions and the platform{'}s written policies. This leaves users unable to understand the specific rule they have violated. This paper addresses this gap by developing and evaluating a pipeline to link TikTok{'}s SoRs from the DSA transparency database to the most relevant clause from TikTok{'}s policy documents. We test multiple methods to perform the linking task and evaluate performance using a wide range of retrieval methods and metrics.We develop and deliver a gold-standard dataset where a team of legal research assistants annotated 100 SoRs based on four criteria: clarity, understanding, presence of unclear terms and level of detail, each rated on a 1{--}4 scale. In addition, a binary rating is assigned for redress clarity. Moreover, annotators determined the best link to the relevant TikTok policy clauses. Results show that both TikTok{'}s SoRs and policy clauses are often extremely broad, granting TikTok more freedom to decide how to apply the clauses, making it even less transparent for users. We also provide a demo that, for each SoR, provides a ranking of the most relevant clauses from TikTok{'}s written policies, a tool that can be useful for users, regulators and researchers to better understand content moderation decisions, assess compliance with transparency requirements, and support further analysis of platform accountability."
+}
+
+@inproceedings{gui-etal-2025-evaluating,
+    title = "Evaluating {LLM}-Generated Legal Explanations for Regulatory Compliance in Social Media Influencer Marketing",
+    author = "Gui, Haoyang  and
+      Bertaglia, Thales  and
+      Annabell, Taylor  and
+      Goanta, Catalina  and
+      Dooper, Tjomme  and
+      Spanakis, Gerasimos",
+    editor = "Aletras, Nikolaos  and
+      Chalkidis, Ilias  and
+      Barrett, Leslie  and
+      Goanț{\u{a}}, C{\u{a}}t{\u{a}}lina  and
+      Preoțiuc-Pietro, Daniel  and
+      Spanakis, Gerasimos",
+    booktitle = "Proceedings of the Natural Legal Language Processing Workshop 2025",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    html = "https://aclanthology.org/2025.nllp-1.12/",
+    doi = "10.18653/v1/2025.nllp-1.12",
+	code = {https://github.com/HaoyangGui/Evaluating-LLM-Generated-Legal-Explanations},
+    pages = "157--171",
+    ISBN = "979-8-89176-338-8",
+    abstract = "The rise of influencer marketing has blurred boundaries between organic content and sponsored content, making the enforcement of legal rules relating to transparency challenging. Effective regulation requires applying legal knowledge with a clear purpose and reason, yet current detection methods of undisclosed sponsored content generally lack legal grounding or operate as opaque ``black boxes.'' Using 1,143 Instagram posts, we compare \textit{gpt-5-nano} and \textit{gemini-2.5-flash-lite} under three prompting strategies with controlled levels of legal knowledge provided. Both models perform strongly in classifying content as sponsored or not (F1 up to 0.93), with Gemini favouring recall (0.93) and GPT favouring precision (0.95), though performance drops by over 10 points on ambiguous cases. We further develop a taxonomy of reasoning errors, showing frequent citation omissions (28.57{\%}), unclear references (20.71{\%}), and hidden ads exhibiting the highest miscue rate (28.57{\%}). While adding regulatory text to the prompt improves explanation quality, it does not consistently improve detection accuracy. The contribution of this paper is threefold. First, it makes a novel addition to regulatory compliance technology by providing a taxonomy of common errors in LLM-generated legal reasoning to evaluate whether automated moderation is not only accurate but also legally robust, thereby advancing the transparent detection of influencer marketing content. Second, it features an original dataset of LLM explanations annotated by two students who were trained in influencer marketing law. Third, it combines quantitative and qualitative evaluation strategies for LLM explanations and critically reflects on how these findings can support advertising regulatory bodies in automating moderation processes on a solid legal foundation."
+}
+
 @article{strazda2025dutchcrowspairsadaptingchallenge,
       title={Dutch CrowS-Pairs: Adapting a Challenge Dataset for Measuring Social Biases in Language Models for Dutch}, 
       author={Elza Strazda and Gerasimos Spanakis},
