@@ -8,6 +8,7 @@ nav_order: 4
 ---
 
 <ul data-phid="1066">
+<li data-phid="1113">21/10/2025: "Artificial Intelligence in Open Science", <a href="https://www.youtube.com/watch?v=InBmR0sYB_E"> YERUN Webinar/Panel for International Open Access Week (Panel)</a> (online)</li>
 <li data-phid="1113">27/6/2025: "Leveraging AI to monitor digital consumer markets", <a href="https://www.paoleiden.nl/cursusaanbod/2025/elaw-summer-school-2025-regulating-ai-in-the-eu-digital-market/"> eLaw Summer School 2025: Regulating AI in the EU Digital Market</a>, Leiden, Netherlands</li>
 <li data-phid="1113">14/5/2025: "Technical Insights: Understanding the Fundamentals of AI Systems", <a href="https://www.eipa.eu/courses/artificial-intelligence/ai-risk-management-in-the-eu-3/"> AI Risk management in the EU </a>, European Institure for Public Administration, Maastricht</li>
 <li data-phid="1113">3/2/2025: "Whatever Happened to TikTok?", <a href="https://www.maastrichtuniversity.nl/events/whatever-happened-tiktok">Law & Popular Culture Research Network (LPC-RN), </a> Faculty of Law open community event, Maastricht</li>
