@@ -7,19 +7,17 @@ nav: true
 nav_order: 4
 ---
 
-<details>
-<summary><strong>2025</strong></summary>
+## Talks & Presentations
+
+## 2025
 
 - 21/10/2025: "Artificial Intelligence in Open Science", [YERUN Webinar/Panel for International Open Access Week (Panel)](https://www.youtube.com/watch?v=InBmR0sYB_E) (online)  
 - 27/6/2025: "Leveraging AI to monitor digital consumer markets", [eLaw Summer School 2025: Regulating AI in the EU Digital Market](https://www.paoleiden.nl/cursusaanbod/2025/elaw-summer-school-2025-regulating-ai-in-the-eu-digital-market/), Leiden, Netherlands  
 - 14/5/2025: "Technical Insights: Understanding the Fundamentals of AI Systems", [AI Risk management in the EU](https://www.eipa.eu/courses/artificial-intelligence/ai-risk-management-in-the-eu-3/), European Institure for Public Administration, Maastricht  
 - 3/2/2025: "Whatever Happened to TikTok?", [Law & Popular Culture Research Network (LPC-RN)](https://www.maastrichtuniversity.nl/events/whatever-happened-tiktok), Faculty of Law open community event, Maastricht  
 
-</details>
 
-
-<details>
-<summary><strong>2024</strong></summary>
+## 2024
 
 - 25/10/2024: "Automated Transparency: A Legal and Empirical Analysis of the Digital Services Act Transparency Database" (online, DSA Transparency Database workshop organized by EC)  
 - 17-19/10/2024: "A computer science perspective on AI liability" (Maastricht, "The New Product Liability Directive: Doctrinal, Comparative and Interdisciplinary Approaches")  
@@ -30,11 +28,8 @@ nav_order: 4
 - 24/5/2024: "Regulating AI through AI", panel discussion, [CPDP 2024](https://www.cpdpconferences.org/cpdp-panels/regulating-ai-through-ai)  
 - 26/1/2024: Find and free the law: How NLP can help access to legal resources, Talk at KIT, Karlsruhe, Germany  
 
-</details>
 
-
-<details>
-<summary><strong>2023</strong></summary>
+## 2023
 
 - 28/11/2023: Find and free the law: How NLP can help access to legal resources, Talk at ILLC CLS Seminar (UvA)  
 - 23/11/2023: [Platform Regulation: DSA and DMA intersections, Online Webinar](https://digi-con.org/digital-constitutionalism-seminar-platform-regulation/)  
@@ -44,49 +39,32 @@ nav_order: 4
 - 23/5/2023: "ChatGPT: Superhero or supervillain? Τruths and lies about Large Language Models", Maastricht Pint of Science  
 - 13/5/2023: "ChatGPT: The Language Wizard Who Sometimes Can't Spell 'Abracadabra’ - Exploring the Wonders and Woes of Large Language Models (LLMs)", UM DACS Alumni Event  
 
-</details>
 
-
-<details>
-<summary><strong>2022</strong></summary>
+## 2022
 
 - 8/12/2022: "From NLLP to legal NLP: The Future of the Field", panel at [NLLP workshop](https://nllpw.org/workshop/program/), EMNLP 2022 ([link](https://www.youtube.com/watch?v=pB2nqXNOOIo&t=7h25m))  
 
-</details>
 
-
-<details>
-<summary><strong>2021</strong></summary>
+## 2021
 
 - 13/12/2021: "Discussing the legitimacy of digital market surveillance", online talk (w/ Catalina Goanta)  
 - 4/6/2021: "Limits of Social Media Algorithms", online talk, National Mathematics Symposium  
 - 6/5/2021: "Computational methods in Consumer Protection Law", online seminar (w/ Catalina Goanta)  
 - 18/3/2021: "Ethical, fair and unbiased AI: Mission possible?", online talk ([link](https://vimeo.com/527441517#t=49m25s))  
 
-</details>
 
-
-<details>
-<summary><strong>2020</strong></summary>
+## 2020
 
 - 5/6/2020: "Should Data Shape Private Law?" panel member (online)  
 
-</details>
-
-
-<details>
-<summary><strong>2019</strong></summary>
+## 2019
 
 - 7/12/2019: "European Influencers for Good", panel member, Maastricht  
 - 17/10/2019: Law & Tech Lab Launch Event: Opening speech, Maastricht  
 - 5/6/2019: “Courts and Internet Governance”, panel member, Brussels  
 - 11/1/2019: “The Regulation of Social Media Influencers”, panel member, Maastricht  
 
-</details>
-
-
-<details>
-<summary><strong>2018</strong></summary>
+## 2018
 
 - 7/12/2018: “Value-Less Data Symposium”, panel member, Maastricht  
 - 14/11/2018: "Infinity Games" @ EIDOLON festival, Hasselt  
@@ -97,11 +75,8 @@ nav_order: 4
 - 16/5/2018: "Big or no-big: Monitoring, Causality and Prediction using Longitudinal Data", MyHabeats launch event, Athens  
 - 6/4/2018: "Data ownership and access in the context of AI", Innov-AI-tion for Law conference 4.0, Brussels  
 
-</details>
 
-
-<details>
-<summary><strong>2017</strong></summary>
+## 2017
 
 - 21/11/2017: "Can a machine make art?" Invited talk @ QNH Consulting, Maastricht  
 - 15/11/2017: "Current AI limits and trends (without the hype)" DKE lunch seminar  
@@ -111,5 +86,3 @@ nav_order: 4
 - 13/5/2017: "Infinity Games" @ CrossCurrents festival, Maastricht  
 - 28/2/2017: Network modeling & machine learning approaches in longitudinal data: Unraveling the causal relationships in unhealthy eating, Chinese University Hong Kong  
 - 25/1/2017: "Teaching people how to eat healthier: There is an app for that (?)", Tilburg University  
-
-</details>
