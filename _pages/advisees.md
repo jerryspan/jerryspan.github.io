@@ -38,33 +38,23 @@ I had the opportunity to (co)supervise and work with several students on their t
 
 <details>
 <summary><strong>2026</strong></summary>
-
-- **Timos Eleftheriou (Research Internship)**: Short-Horizon Forecasting of EMA Symptoms Using Digital Phenotyping and Wearable Data (2026)
+  
+  - **Timos Eleftheriou (Research Internship)**: Short-Horizon Forecasting of EMA Symptoms Using Digital Phenotyping and Wearable Data (2026)
 
 </details>
 
 
 <details>
 <summary><strong>2025</strong></summary>
-
-- **Abdulmuizz Abdulrazzak Khalak (Msc)**: Analyzing Differences And Similarities Between Arabic And Dialectal Arabic Pre-Trained Models (2025)
-
-- **Alexander Prochnow (MSc)**: Demand Forecasting In Supply Chain Management In The Automotive Aftermarket Industry (2025)
-
-- **Anton Changalidi (MSc)**: AI Assistant for Regulatory Compliance in Building Designs (2025)
-
-- **Jiska Beuk (MSc)**: Measuring Bias Against LGBTQ+ Individuals in Dutch Language Models (2025)
-
-- **Leonard Maximilian Eßer (MSc)**: Linking Transparency And Accountability: Analyzing The Connection Between Tiktok's Terms Of Service And Moderation Decisions (2025)
-
-- **Abdulmuizz Abdulrazzak Khalak (Internship @Law&Tech Lab)**: "Identifying factual, legal reasoning and outcome similiarties in legal cases" (2025)
-
-- **Bas Görritzer (joint s/v with Pawel Maka, MSc)**: "Sequence Shortening for Autoregressive Language Modeling" (2025)
-
-- **Alexei Rosca (joint s/v with Abderrhmane Issam, MSc)**: "Low-Resource Machine Translation for Moroccan Arabic" (2025)
-
-- **Chloe Chrombach (MSc)**: "Optimizing Dutch Legal Text Segmentation and Summarization: A Low-Resource Approach to Enhancing Relevance Extraction in Complex Case Law" (2025)
-
+  - **Abdulmuizz Abdulrazzak Khalak (Msc)**: Analyzing Differences And Similarities Between Arabic And Dialectal Arabic Pre-Trained Models (2025)
+  - **Alexander Prochnow (MSc)**: Demand Forecasting In Supply Chain Management In The Automotive Aftermarket Industry (2025)
+  - **Anton Changalidi (MSc)**: AI Assistant for Regulatory Compliance in Building Designs (2025)
+  - **Jiska Beuk (MSc)**: Measuring Bias Against LGBTQ+ Individuals in Dutch Language Models (2025)
+  - **Leonard Maximilian Eßer (MSc)**: Linking Transparency And Accountability: Analyzing The Connection Between Tiktok's Terms Of Service And Moderation Decisions (2025)
+  - **Abdulmuizz Abdulrazzak Khalak (Internship @Law&Tech Lab)**: "Identifying factual, legal reasoning and outcome similiarties in legal cases" (2025)
+  - **Bas Görritzer (joint s/v with Pawel Maka, MSc)**: "Sequence Shortening for Autoregressive Language Modeling" (2025)
+  - **Alexei Rosca (joint s/v with Abderrhmane Issam, MSc)**: "Low-Resource Machine Translation for Moroccan Arabic" (2025)
+  - **Chloe Chrombach (MSc)**: "Optimizing Dutch Legal Text Segmentation and Summarization: A Low-Resource Approach to Enhancing Relevance Extraction in Complex Case Law" (2025)
 </details>
 
 <details>
