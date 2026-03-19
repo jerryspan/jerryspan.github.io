@@ -1,5 +1,11 @@
-# Advisees
-
+---
+layout: page
+permalink: /advisees/
+title: advisees
+description: 
+nav: true
+nav_order: 5
+---
 I have/had the privilege of advising the following researchers (in alphabetical order):
 
 ## Current advisees
