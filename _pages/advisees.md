@@ -39,12 +39,18 @@ I had the opportunity to (co)supervise and work with several students on their t
 <details>
 <summary><strong>2026</strong></summary>
 
+<div>
+
 - **Timos Eleftheriou (Research Internship)**: Short-Horizon Forecasting of EMA Symptoms Using Digital Phenotyping and Wearable Data (2026)
 
+</div>
+  
 </details>
 
 <details>
 <summary><strong>2025</strong></summary>
+
+<div>
 
 - **Abdulmuizz Abdulrazzak Khalak (Msc)**: Analyzing Differences And Similarities Between Arabic And Dialectal Arabic Pre-Trained Models (2025)
 - **Alexander Prochnow (MSc)**: Demand Forecasting In Supply Chain Management In The Automotive Aftermarket Industry (2025)
@@ -55,6 +61,8 @@ I had the opportunity to (co)supervise and work with several students on their t
 - **Bas Görritzer (joint s/v with Pawel Maka, MSc)**: "Sequence Shortening for Autoregressive Language Modeling" (2025)
 - **Alexei Rosca (joint s/v with Abderrhmane Issam, MSc)**: "Low-Resource Machine Translation for Moroccan Arabic" (2025)
 - **Chloe Chrombach (MSc)**: "Optimizing Dutch Legal Text Segmentation and Summarization: A Low-Resource Approach to Enhancing Relevance Extraction in Complex Case Law" (2025)
+
+</div>
 
 </details>
 
