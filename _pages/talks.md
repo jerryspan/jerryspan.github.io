@@ -1,16 +1,21 @@
 ---
 layout: page
 permalink: /talks/
-title: talks & presentations
+title: talks
 description: 
 nav: true
 nav_order: 4
 ---
 
-## Talks & Presentations
+## 2026
+
+- 08/01/2026: "AI: Trust, Truth and the New Frontier (introductory lecture)", Studium Generale Maastricht, Lecture series on AI and Society, Maastricht
 
 ## 2025
 
+- 05/12/2025: "WinoQueer-NL: Assessing Bias in Dutch Language Models toward LGBTQ+ Identities", [Queer in AI workshop @ EurIPS 2025](https://www.queerinai.com/eurips-2025)
+- 20/11/2025: "QUO VADIS (BN)AI(C)? The paper, the product and the law", [FACt talk @ BNAIC/BENELEARN 2025](https://bnaic2025.unamur.be/fact.html), Namur, Belgium
+- 17/11/2025: "Technical Insights: Understanding the Fundamentals of AI Systems", [AI Risk management in the EU](https://www.eipa.eu/courses/artificial-intelligence/ai-risk-management-in-the-eu-4/), European Institure for Public Administration, Maastricht  
 - 21/10/2025: "Artificial Intelligence in Open Science", [YERUN Webinar/Panel for International Open Access Week (Panel)](https://www.youtube.com/watch?v=InBmR0sYB_E) (online)  
 - 27/6/2025: "Leveraging AI to monitor digital consumer markets", [eLaw Summer School 2025: Regulating AI in the EU Digital Market](https://www.paoleiden.nl/cursusaanbod/2025/elaw-summer-school-2025-regulating-ai-in-the-eu-digital-market/), Leiden, Netherlands  
 - 14/5/2025: "Technical Insights: Understanding the Fundamentals of AI Systems", [AI Risk management in the EU](https://www.eipa.eu/courses/artificial-intelligence/ai-risk-management-in-the-eu-3/), European Institure for Public Administration, Maastricht  
