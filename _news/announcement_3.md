@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 📄 New paper accepted at [FAccT 2026](https://facctconference.org/2026/index.html), titled "Is your AI Model Accurate Enough? The Difficult Choices Behind
-Rigorous AI Development and the EU AI Act". Pre-print coming soon!
+Rigorous AI Development and the EU AI Act". Pre-print [here](https://arxiv.org/abs/2604.03254)
