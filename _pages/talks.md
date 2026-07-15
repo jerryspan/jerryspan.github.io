@@ -8,6 +8,7 @@ nav_order: 4
 ---
 
 ## 2026
+- 08/07/2026: "Code, Compliance and Competitiveness: Making the AI Act work for Europe", Panel discussion, [ENFIELD Final Conference on Advancing AI in Europe: From Foundations to Real-World Applications](https://enfield-project.eu/final-conference/session-explainability-and-human-oversight-in-ai-systems-2/), Brussels, Belgium
 - 16/06/2026: "Technical Insights: Understanding the Fundamentals of AI Systems", [AI Risk management in the EU](https://www.eipa.eu/courses/artificial-intelligence/ai-risk-management-in-the-eu-4/](https://www.eipa.eu/courses/artificial-intelligence/)), European Institure for Public Administration, Maastricht 
 - 08/06/2026: "Introduction to Artificial Intelligence and Machine Learning: Basic elements & different types of AI systems", [ECPC Course on AI Trust and Privacy Compliance, Maastricht](https://www.maastrichtuniversity.nl/events/ai-trust-and-privacy-compliance-officer)
 - 08/01/2026: "AI: Trust, Truth and the New Frontier (introductory lecture)", Studium Generale Maastricht, Lecture series on AI and Society, Maastricht
