@@ -2,25 +2,56 @@
 
 #2026
 
+@InProceedings{issam-EtAl:2026:wmt,
+  author    = {Issam, Abderrahmane  and  Semerci, Yusuf Can  and  Scholtes, Jan  and  Spanakis, Gerasimos},
+  title     = {Align, Integrate, and Fire: Efficient Token-Level Alignment for Zero-Shot SpeechLLMs},
+  booktitle      = {Proceedings of the Eleventh Conference on Machine Translation},
+  month          = {October},
+  year           = {2026},
+  address        = {Budapest, Hungary},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {311--324},
+  pdf = {https://www2.statmt.org/wmt26/pdf/2026.wmt-1.18.pdf},
+  code = {https://github.com/issam9/ACIF},
+  abstract  = {While Large Language Models excel in natural language processing, efficiently extending their capabilities to spoken input remains a significant challenge. Existing methods for building SpeechLLMs often rely on computationally expensive full-model fine-tuning, or employ parameter-efficient projectors that suffer from inefficient token sequence lengths and costly full-model supervision. In this paper, we introduce Aligned Continuous Integrate-and-Fire, a highly efficient framework for zero-shot speech processing. Our method dynamically compresses continuous acoustic frames into the exact discrete token length of the target text utilizing explicit Dynamic Time Warping alignments. This allows our initial training stage to establish a robust acoustic-to-semantic bridge using lightweight distance metrics, entirely bypassing the computationally expensive LLM forward pass. For subsequent fine-tuning, we propose a memory-efficient knowledge distillation objective that targets a single LLM layer, performing competitively with full-model cross-entropy training at a fraction of the computational cost. Through extensive evaluations on Automatic Speech Recognition and Speech Translation, we demonstrate that our method achieves superior performance compared to prior parameter-efficient baselines.},
+  html       = {https://aclanthology.org/2026.wmt-1.18}
+}
+
+
+@inproceedings{bourrel2026probe,
+  title={{A Probe Shift Is Not a Fairness Fix: The Limits of Representation Steering in Speech Models}},
+  author={{Bourrel, Nicolas and Issam, Abderrahmane and Spanakis, Gerasimos}},
+  booktitle={{IMPACT-SPEECH 2026 (accepted for publication)}},
+  year={2026},
+  month={oct},
+  arxiv={2609.18533}
+}
+
+@inproceedings{issam26_interspeech,
+  title     = {{Cross-Modal Robustness Transfer (CMRT): Training Robust Speech Translation Models Using Adversarial Text}},
+  author    = {Abderrahmane Issam and Yusuf Can Semerci and Jan Scholtes and Gerasimos Spanakis},
+  year      = {2026},
+  month = {sep},
+  booktitle = {{Interspeech 2026}},
+  pages     = {5361--5366},
+  doi       = {10.21437/Interspeech.2026-2278},
+  arxiv = {2602.11933},
+  pdf = {https://www.isca-archive.org/interspeech_2026/issam26_interspeech.pdf},
+  code = {https://github.com/issam9/CMRT},
+  issn      = {2958-1796},
+}
+
 @@inproceedings{beuk2026winoqueernlassessingbiasdutch,
       title={{WinoQueer-NL: Assessing Bias in Dutch Language Models toward LGBTQ+ Identities}}, 
       author={{Jiska Beuk and Gerasimos Spanakis}},
       year={2026},
-	  month = {sep},
+	  month = {nov},
+      booktitle = {{7th Workshop on Gender Bias in Natural Language Processing (AACL 2026)}},
       arxiv={2609.02651},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
       html={https://arxiv.org/abs/2609.02651}, 
 	  code={https://github.com/jerryspan/WinoQueer-NL}
-}
-
-@inproceedings{issam2026cross,
-  title={{Cross-Modal Robustness Transfer (CMRT): Training Robust Speech Translation Models Using Adversarial Text}},
-  author={Issam, Abderrahmane and Semerci, Yusuf Can and Scholtes, Jan and Spanakis, Gerasimos},
-  booktitle={{InterSpeech 2026 (accepted for publication)}},
-  year={2026},
-  month = {sep},
-  arxiv = {2602.11933}
 }
 
 @inproceedings{bertaglia2026traceable,
