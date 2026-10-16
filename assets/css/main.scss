@@ -25,7 +25,9 @@ $max-content-width: {{ site.max_width }};
 ;
 
 /* Expandable descriptions */
-details.thesis-summary summary {
-  font-size: 1.3rem;
-  color: #2563eb;
+details.thesis-summary > summary {
+  font-size: 1.3rem !important;
+  font-weight: 600;
+  color: #2563eb !important;
+  cursor: pointer;
 }
