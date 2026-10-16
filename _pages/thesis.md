@@ -22,13 +22,13 @@ This is a non-exhaustive list of topics available to DACS bachelor/master studen
 + I am open to working on other Data Mining/Machine Learning areas but you have to convince me they are interesting.
 
 <!--
-<details markdown="1">
+<details class="thesis-summary" markdown="1">
 <summary>
 </summary>
 </details>
 -->
 
-<details markdown="1">
+<details class="thesis-summary" markdown="1">
 <summary>
 Cross-lingual retrieval of EU legal text
 </summary>
@@ -63,7 +63,7 @@ Python, basic NLP and IR (BM25, embeddings), some experience with Hugging Face o
 </details>
 
 
-<details markdown="1">
+<details class="thesis-summary" markdown="1">
 <summary>
 Hybrid legal case similarity (citations plus semantics)
 </summary>
@@ -100,7 +100,7 @@ References (indicative)
 </details>
 
 
-<details markdown="1">
+<details class="thesis-summary" markdown="1">
 <summary>
 Linguistic Expression of Uncertainty vs. Overconfidence in LLM-Generated Legal Answers
 </summary>
@@ -135,7 +135,7 @@ NLP, Python, LLM and access to LLM APIs, (legal) QA and Information Retrieval
 
 </details>
 
-<details markdown="1">
+<details class="thesis-summary" markdown="1">
 <summary>
 Assessing LLM Safety in Dutch: A Culturally Grounded Benchmark
 </summary>
@@ -169,7 +169,7 @@ Produce a prompt dataset of safety-probing questions per Wikipedia page, and use
 - Kumar, Priyanshu, et al. "Polyguard: A multilingual safety moderation tool for 17 languages." arXiv preprint arXiv:2504.04377 (2025).
 </details>
 
-<details markdown="1">
+<details class="thesis-summary" markdown="1">
 <summary>
 Miles and Measures: A Computational Approach to Consumer Fairness in Frequent Flyer Programs
 </summary>
@@ -205,7 +205,7 @@ The goal of this project is to systematically capture, structure and analyze FFP
 - (links) http://claudette.eui.eu/index.htmlLinks to an external site., https://tosdr.org/Links to an external site.
 </details>
 
-<details markdown="1">
+<details class="thesis-summary" markdown="1">
 <summary>
 chatGPT ads: In-text sponsored promotion on realistic prompts and real advertisers
 </summary>
