@@ -34,27 +34,27 @@ Cross-lingual retrieval of EU legal text
 </summary>
 Draws on existing work on legal retrieval benchmarks (e.g. BSARD, Louis & Spanakis 2022) and multilingual dense retrieval (e.g. BGE-M3, Chen et al. 2024), and applies them to the setting where a user queries in one EU language and the relevant legal documents are in another. Multilingual legal retrieval is a real gap: most legal IR benchmarks are monolingual, while EU legal practice is inherently multilingual.
 
-### Objective (pick some, or zoom in)
+#### Objective (pick some, or zoom in)
 - Compare lexical (BM25), translation-based (translate the query, then BM25), and multilingual dense retrieval on cross-lingual legal retrieval.
 - Quantify the cross-lingual gap: how much retrieval quality drops when query and document languages differ, per language pair.
 - Test whether hybrid retrieval (BM25 + dense, fused) closes the gap, and whether legal-domain fine-tuning helps over general multilingual models.
 - Analyse failure cases, e.g. legal concepts with no exact equivalent across legal systems.
 
-### How
+#### How
 - Data: [EUR-Lex](https://eur-lex.europa.eu/content/help/data-reuse/reuse-contents-eurlex-details.html) as the main corpus (the same act exists in up to 24 languages, which gives cross-lingual relevance labels for free), plus [LEXTREME](https://huggingface.co/datasets/joelniklaus/lextreme) for additional multilingual legal text.
 - Task construction: (a) title or summary in language A, relevant document is the same act in language B; (b) topic-based relevance via EuroVoc labels; (c) optionally, real questions from BSARD (French), machine-translated into other languages as a smaller, harder test set.
 - Systems: BM25 (Lucene/OpenSearch/Pyserini), 3-5 multilingual embedding models (multilingual-e5, LaBSE, BGE-M3), an MT pipeline, and hybrid fusion (RRF).
 - Evaluation: nDCG@10, Recall@k, and MRR, reported per language pair. Qualitative review of a sample of failures with a legal-expert colleague.
 - Optional: fine-tune one embedding model on in-domain legal pairs.
 
-### Outputs
+#### Outputs
 - A reproducible evaluation pipeline and a cross-lingual legal retrieval benchmark (query sets and relevance judgments).
 - A quantitative comparison of methods per language pair, with recommendations for multilingual legal search.
 
-# Prerequisites
+#### Prerequisites
 Python, basic NLP and IR (BM25, embeddings), some experience with Hugging Face or sentence-transformers. Legal knowledge is not required.
 
-# References (indicative)
+#### References (indicative)
 - Chalkidis, I., Fergadiotis, M., & Androutsopoulos, I. (2021). MultiEURLEX: a multi-lingual and multi-label legal document classification dataset for zero-shot cross-lingual transfer. EMNLP 2021.
 - Louis, A., & Spanakis, G. (2022). A statutory article retrieval dataset in French. ACL 2022 (and more recent papers of Antoine Louis)
 - Chen, J., et al. (2024). BGE M3-Embedding: multi-lingual, multi-functionality, multi-granularity text embeddings. arXiv:2402.03216.
