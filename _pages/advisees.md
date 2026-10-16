@@ -12,7 +12,7 @@ I have/had the privilege of advising the following researchers (in alphabetical 
 
 - [Haoyang Gui](https://www.uu.nl/staff/HGui) (PhD, ongoing): Computational Techniques for Social Media Influencers  
 - [Abderrahmane Issam](https://www.maastrichtuniversity.nl/issam) (PhD, ongoing): Low-resource Neural Machine Translation for non-native speakers  
-- [Pawel Maka](https://www.maastrichtuniversity.nl/pm-maka) (PhD, submitted): Context-aware Neural Machine Translation  
+- [Pawel Maka](https://www.maastrichtuniversity.nl/pm-maka) (PhD, submitted!): Context-aware Neural Machine Translation  
 - [Samyak Sheth](https://www.maastrichtuniversity.nl/ss-sheth) (PhD, ongoing): Access to legal information for laypeople  
 - [Lucas G. Uberti-Bona Marin](https://lucas-ubm.github.io/) (PhD, ongoing): Computational techniques to mitigate risks from AI deployment  
 
@@ -32,7 +32,7 @@ I have/had the privilege of advising the following researchers (in alphabetical 
 
 ## Thesis & Internship Supervision
 
-For a (probably not updated) list of available thesis topics see [here](https://jerryspan.github.io/thesis/)).
+For a (probably not updated) list of available thesis topics see [here](https://jerryspan.github.io/thesis/).
 
 I had the opportunity to (co)supervise and work with several students on their thesis/internship projects, several of which have led to publications:
 
