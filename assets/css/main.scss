@@ -25,7 +25,7 @@ $max-content-width: {{ site.max_width }};
 ;
 
 /* Expandable descriptions */
-details summary {
-  font-size: 1.05rem;
-  cursor: pointer;
+details.thesis-summary summary {
+  font-size: 1.3rem;
+  color: #2563eb;
 }
