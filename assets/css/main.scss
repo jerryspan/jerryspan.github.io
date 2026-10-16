@@ -24,14 +24,6 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
-/* Thesis topic headings */
-h2 {
-  font-size: 2rem;
-  color: #2563eb;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
-}
-
 /* Expandable descriptions */
 details summary {
   font-size: 1.05rem;
