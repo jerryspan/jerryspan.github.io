@@ -7,7 +7,9 @@ nav: true
 nav_order: 6
 ---
 
-This is a non-exhaustive list of topics available to DACS bachelor/master students. For general advice about your thesis plan and the process check [this (live) document](https://docs.google.com/document/d/1rPkSTyWMtICGdcwbNSTv0Jb3x0mSEGYG_I9nmQ1Gg9g/edit?usp=sharing) before you reach out to me.
+Below is a non-exhaustive list of topics available to DACS bachelor/master students. For general advice about your thesis plan and the process check [this (live) document](https://docs.google.com/document/d/1rPkSTyWMtICGdcwbNSTv0Jb3x0mSEGYG_I9nmQ1Gg9g/edit?usp=sharing) before you reach out to me.
+
+I also supervise students at the [Law & AI specialization of the ELS master](https://www.maastrichtuniversity.nl/education/master/programmes/european-law-school-law-ai). Topics include: AI and AI Act, DSA and online platforms, digital consumer protection and genAI. For more information check Canvas.
 
 <!--
 <details class="thesis-summary" markdown="1">
