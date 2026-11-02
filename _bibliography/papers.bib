@@ -2,6 +2,44 @@
 
 #2026
 
+@@inproceedings{beuk2026winoqueernlassessingbiasdutch,
+      title={{WinoQueer-NL: Assessing Bias in Dutch Language Models toward LGBTQ+ Identities}}, 
+      author={{Jiska Beuk and Gerasimos Spanakis}},
+	  month = {nov},
+      year={2026},
+      booktitle = {{7th Workshop on Gender Bias in Natural Language Processing (AACL 2026)}},
+      arxiv={2609.02651},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      html={https://arxiv.org/abs/2609.02651}, 
+	  code={https://github.com/jerryspan/WinoQueer-NL}
+}
+
+@inproceedings{bertaglia-etal-2026-childsafeads,
+    title = "{C}hild{S}afe{A}ds Shared Task 2026: Commercial Content in Child-Facing {Y}ou{T}ube Videos",
+    author = "Bertaglia, Thales  and
+      Goanta, Catalina  and
+      Spanakis, Gerasimos  and
+      Acar, Gunes",
+    editor = "Aletras, Nikolaos  and
+      Chalkidis, Ilias  and
+      Barrett, Leslie  and
+      Goanț{\u{a}}, C{\u{a}}t{\u{a}}lina  and
+      Preoțiuc-Pietro, Daniel  and
+      Spanakis, Gerasimos  and
+      Xu, Shanshan",
+    booktitle = "Proceedings of the Natural Legal Language Processing Workshop 2026",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    html = "https://aclanthology.org/2026.nllp-1.51/",
+    doi = "10.18653/2026.nllp-1.51",
+    pages = "641--649",
+    ISBN = "979-8-89176-494-1",
+    abstract = "ChildSafeAds is a shared task on commercial content in YouTube videos likely to reach children and teenagers. The dataset contains 3,360 videos from 939 channels, each starting with a sponsor segment submitted to SponsorBlock. We pair each segment with its transcript, video, and channel information, plus a sales or service page linked from the video description. Systems determine the type of offer being promoted (ST1), assign product categories (ST2), and identify potential legal risks (ST3). Evidence is divided into four cumulative access levels, from the transcript to the linked page, so performance can be compared against the cost of collecting additional data. YouTube ``Includes paid promotion'' label was absent from 45.5{\%} of the videos. GPT-5.4 produced the labels after the organiser team, including a legal expert, reviewed samples and iterated on the taxonomy, prompts and model choices. GPT-5.6-luna independently labelled the development set to measure cross-model agreement. The evaluation received 21 entries; the highest mean macro-F1 was 0.735, while the best transcript-only entry reached 0.652. Across four system papers, the linked promotional page mainly helped identify what was being sold and added little to compliance-risk classification. The competition also exposed sensitivity to rare labels, advertiser overlap across splits and substantial variation in the ST3 labels."
+}
+
 @InProceedings{issam-EtAl:2026:wmt,
   author    = {Issam, Abderrahmane  and  Semerci, Yusuf Can  and  Scholtes, Jan  and  Spanakis, Gerasimos},
   title     = {Align, Integrate, and Fire: Efficient Token-Level Alignment for Zero-Shot SpeechLLMs},
@@ -18,14 +56,28 @@
 }
 
 
-@inproceedings{bourrel2026probe,
-  title={{A Probe Shift Is Not a Fairness Fix: The Limits of Representation Steering in Speech Models}},
-  author={{Bourrel, Nicolas and Issam, Abderrahmane and Spanakis, Gerasimos}},
-  booktitle={{IMPACT-SPEECH 2026 (accepted for publication)}},
-  year={2026},
-  month={oct},
-  arxiv={2609.18533}
-}
+@inproceedings{bourrel-etal-2026-probe,
+    title = "🏆 A Probe Shift Is Not a Fairness Fix: The Limits of Representation Steering in Speech Models",
+    author = "Bourrel, Nicolas  and
+      Issam, Abderrahmane  and
+      Spanakis, Gerasimos",
+    editor = "Shekhar, Ravi  and
+      Swain, Monorama  and
+      Mishra, Jagabandhu  and
+      Dhar, Sandipan  and
+      Mouratidis, Haralambos  and
+      Purver, Matthew",
+    booktitle = "Proceedings of the {IMPACT}-{SPEECH} Workshop: Identifying, Measuring, Preventing, and Assessing Consequences of Bias in Speech {LLM}s",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.impactspeech-1.1/",
+    doi = "10.18653/2026.impactspeech-1.1",
+    pages = "1--9",
+    ISBN = "979-8-89176-479-8",
+    abstract = "Automatic speech recognition (ASR) systems exhibit unequal error rates across speaker groups, motivating interventions on their internal representations. We ask whether speakerlinked attributes that are linearly readable from pretrained ASR encoders yield useful directions for reducing group word-error-rate (WER) gaps. Across Whisper-medium, HuBERT-large, and Wav2Vec2-large on Common Voice and the Speech Accent Archive, we probe every encoder layer for metadata-derived sex/gender, age, and native/accent labels; construct centroid and probe-derived directions; inject them at selected layers; and compare downstream probe trajectories with matched WER changes. Sex labels are highly decodable (best macroF1 0.924{--}0.941), native/accent labels are also above chance (0.544{--}0.696), and age is weaker (0.354{--}0.397). Of 22 post-selected reruns, nine have 95{\%} paired-bootstrap intervals entirely below zero, yet every absolute source-group WER reduction is below 0.7 percentage points. Conversely, a local target-class probe rate can rise from 8.09{\%} to 99.87{\%} while WER worsens. Linear readability is therefore neither evidence of causal use nor a reliable mitigation method. Our results motivate evaluating speech-bias interventions jointly at representation, propagation, and task levels."
+},
 
 @inproceedings{issam26_interspeech,
   title     = {{Cross-Modal Robustness Transfer (CMRT): Training Robust Speech Translation Models Using Adversarial Text}},
@@ -39,19 +91,6 @@
   pdf = {https://www.isca-archive.org/interspeech_2026/issam26_interspeech.pdf},
   code = {https://github.com/issam9/CMRT},
   issn      = {2958-1796},
-}
-
-@@inproceedings{beuk2026winoqueernlassessingbiasdutch,
-      title={{WinoQueer-NL: Assessing Bias in Dutch Language Models toward LGBTQ+ Identities}}, 
-      author={{Jiska Beuk and Gerasimos Spanakis}},
-      year={2026},
-	  month = {nov},
-      booktitle = {{7th Workshop on Gender Bias in Natural Language Processing (AACL 2026)}},
-      arxiv={2609.02651},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      html={https://arxiv.org/abs/2609.02651}, 
-	  code={https://github.com/jerryspan/WinoQueer-NL}
 }
 
 @inproceedings{bertaglia2026traceable,
@@ -842,7 +881,7 @@ series = {FAccT '26}
 	pages        = {765--774}
 }
 @inproceedings{bauer2020metoomaastricht,
-	title        = {\# MeTooMaastricht: Building a chatbot to assist survivors of sexual harassment},
+	title        = {🏆 \# MeTooMaastricht: Building a chatbot to assist survivors of sexual harassment},
 	author       = {Bauer, Tobias and Devrim, Emre and Glazunov, Misha and Jaramillo, William Lopez and Mohan, Balaganesh and Spanakis, Gerasimos},
 	year         = 2020,
 	booktitle    = {Machine Learning and Knowledge Discovery in Databases: International Workshops of ECML PKDD 2019, W{\"u}rzburg, Germany, September 16--20, 2019, Proceedings, Part I},
@@ -858,7 +897,7 @@ series = {FAccT '26}
 	organization = {IEEE}
 }
 @inproceedings{trusca2020hybrid,
-	title        = {Hybrid Tiled Convolutional Neural Networks (HTCNN) Text Sentiment Classification.},
+	title        = {🏆 Hybrid Tiled Convolutional Neural Networks (HTCNN) Text Sentiment Classification.},
 	author       = {Trusca, Maria Mihaela and Spanakis, Gerasimos},
 	year         = 2020,
 	booktitle    = {ICAART (2)},
