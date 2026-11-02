@@ -7,19 +7,7 @@ nav: true
 nav_order: 6
 ---
 
-This is a non-exhaustive list of topics available to DACS bachelor/master students. Please note the following before you send me an email or select me as a supervisor.
-
-+ You will need to read and understand many (recent) research papers.
-+ You are expected to be independent and self-motivated but also report, update and “teach” me new things as well
-+ I will push you to do good work and provide the needed conditions for it.
-+ I won’t pressure with deadlines, etc.
-+ Don't send me emails written with an LLM. If you insist, send me the prompt.
-+ Don't create presentations with Claude (or other LLMs). It's easy for me to figure it out.
-+ You need to know how to program and love (unconditionally) to program. I don't care how you program, but I expect that you know what your code is doing.
-+ You will need to be able to “get things to work”.
-+ It will be mostly hard work but you will be reimbursed by the quality results (most of the time…)
-+ My research interests are in applied ML and NLP in the topics highlighted below.
-+ I am open to working on other Data Mining/Machine Learning areas but you have to convince me they are interesting.
+This is a non-exhaustive list of topics available to DACS bachelor/master students. For general advice about your thesis plan and the process check [this (live) document](https://docs.google.com/document/d/1rPkSTyWMtICGdcwbNSTv0Jb3x0mSEGYG_I9nmQ1Gg9g/edit?usp=sharing) before you reach out to me.
 
 <!--
 <details class="thesis-summary" markdown="1">
@@ -27,6 +15,8 @@ This is a non-exhaustive list of topics available to DACS bachelor/master studen
 </summary>
 </details>
 -->
+
+### Thesis topics 2026-2027
 
 <details class="thesis-summary" markdown="1">
 <summary>
