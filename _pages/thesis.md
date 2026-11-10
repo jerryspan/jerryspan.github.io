@@ -20,6 +20,52 @@ I also supervise students at the [Law & AI specialization of the ELS master](htt
 
 ### Thesis topics 2026-2027
 
+
+<details class="thesis-summary" markdown="1">
+<summary>
+Automated detection of child-appealing advertising and limitations of ad repositories
+</summary>
+
+Existing advertising repositories (e.g. [Meta Ad Library](https://www.facebook.com/ads/library/)) provide information about audience targeting and reach, but their reliability for assessing children's exposure to harmful advertising remains uncertain. Xiao et al. (2026) show that advertisements for video games containing illegal loot boxes can reach millions of users, while age-based reach data may fail to capture actual exposure among minors. Recent research (see references) further highlights how harmful advertisements evade platform moderation and how advertising repositories contain incomplete or misleading targeting information. This project proposes using multimodal machine-learning models to identify child-appealing and potentially harmful advertising content and compare these findings with the audience information disclosed by advertising platforms.
+
+##### Objective (pick some, or zoom in)
+
+- Develop a multimodal framework for detecting child-appealing and potentially harmful advertisements.
+- Compare keyword-based, image-text embedding and multimodal LLM approaches.
+- Investigate how effectively models detect advertisements using obfuscation techniques.
+- Examine the relationship between child-appealing content and reported audience targeting.
+- Compare advertising practices and repository transparency in Belgium and the Netherlands.
+
+##### How
+
+- Data: Start with existing public datasets, such as [Xiao et al.'s dataset](https://osf.io/2urym/overview) of 1,574 Belgian advertisements, supplemented with advertisements collected prospectively from Meta Ad Library in Belgium and the Netherlands.
+- Annotation: Manually label approximately 1,500–2,000 advertisements for child-appeal, gambling-like mechanics, manipulative persuasion and deceptive claims. The annotation process and codebook will need to be developed and discussed.
+- Models: Compare keyword-based classification, CLIP-style image-text embeddings and zero/few-shot multimodal LLMs.
+- Evaluation: Measure precision, recall and F1 against manually annotated data, including comparisons across Dutch, French and English advertisements and different obfuscation techniques.
+- Repository analysis: Compare detected child-appeal with reported age targeting, audience reach and missing repository information. Examine the 18–24 age category as an imperfect proxy for potential exposure among minors.
+
+##### Outputs
+
+- A reusable annotation codebook and annotated dataset of European digital advertisements.
+- A multimodal classification pipeline for identifying child-appealing and harmful advertising.
+- A quantitative comparison of different automated detection approaches.
+- An analysis of the relationship between advertisement content, audience targeting and repository transparency.
+- Recommendations for improving advertising transparency and protecting minors online.
+
+##### Prerequisites
+
+Python, machine learning, NLP and multimodal LLMs, and an interest in EU digital regulation.
+
+##### References (indicative)
+
+- Xiao, L. Y., et al. (2026). Widespread Suspected Illegal Advertising of Paid Loot Boxes and Social Casino Games in Belgium. *European Addiction Research*. [Article](https://doi.org/10.1159/ear/acrag008). [Dataset](https://osf.io/2urym/overview).
+- Benzaamia, A., et al. (2026). A Year Under the DSA: Ad Transparency's Uneven Landscape. *Proceedings on Privacy Enhancing Technologies*. [Article](https://doi.org/10.56553/popets-2026-0059).
+- Bouchaud, P., et al. (2025). Meta's Failing Ad Moderation: Health Scams Targeting EU Users. *AI Forensics*. [Research](https://aiforensics.org/work/meta-health-ads).
+- Reset Tech. *Clickbait Cures: Unmasking the Deceptive Health Ad Infrastructure on Meta and Google*. [Report](https://www.reset.tech/resources/clickbait-cures/).
+
+</details>
+
+
 <details class="thesis-summary" markdown="1">
 <summary>
 Cross-lingual retrieval of EU legal text
