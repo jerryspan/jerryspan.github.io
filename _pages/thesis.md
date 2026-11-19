@@ -20,6 +20,50 @@ I also supervise students at the [Law & AI specialization of the ELS master](htt
 
 ### Thesis topics 2026-2027
 
+<details class="thesis-summary" markdown="1">
+<summary>
+Did the Commission listen? Measuring how consultation input shapes EU digital legislation
+</summary>
+
+The European Commission presents public consultations as a way to make legislation evidence-based and responsive, and its Better Regulation rules require a synopsis of what was heard and how it was used. Whether the resulting proposals and final acts actually reflect the input received is rarely tested at scale: earlier studies of preference attainment and consultation bias mostly rely on a limited number of manually coded cases. Using a large-scale dataset, the [EU Public Consultations and Feedback Portal dataset](https://zenodo.org/records/19582396) (all public consultation metadata, attached files and extracted, machine-translated response texts, 2017 to May 2025) we want to explore the chain *consultation → Commission proposal → final act* and use NLP methods to measure which themes raised by respondents reappear in the proposal and in the adopted law, and for whom this holds. The aim is to measure alignment between input and outcome, not to prove causal influence. We will focus on the digital acquis, i.e. the EU legislations related to digital technologies etc. as described [here](https://www.ceps.eu/ceps-publications/a-dataset-of-eu-legal-and-policy-instruments-for-the-digital-world-2/).
+
+##### Objective (pick some, or zoom in)
+
+- Build and document a linked dataset of consultations, Commission proposals and final acts for the digital acquis, and describe which laws have a consultation and why others do not.
+- Develop a codebook and pipeline to extract concrete demands (stance plus object, e.g. "ban targeted advertising to minors") from consultation responses.
+- Compare lexical, embedding-based and LLM-based approaches for matching demands to provisions of the proposal and the final act.
+- Test which kinds of input are taken up: by stakeholder type (business, civil society, citizens, public authorities), by frequency, and by campaign versus individually written responses.
+- Examine what survives the legislative negotiation (proposal versus final act) and compare findings with the Commission's own consultation synopsis.
+- Zoom option: a thematic case such as protection of minors online across different legsilations.
+
+##### How
+
+- Data: the two datasets above, plus proposal and final-act texts from EUR-Lex/Cellar (CELEX numbers). A first pipeline for linking acts, proposals and consultations is available. Because the consultation data ends in mid-2025, only laws proposed between 2017 and 2025 can be analysed; the actual coverage will be established in the first phase.
+- Baseline: use the earlier call for evidence or inception impact assessment to separate themes the Commission had already set from themes introduced by the consultation.
+- Pre-processing: deduplicate mass-mail campaigns, assess machine-translation quality, handle attachments of different types.
+- Annotation: build a gold standard of approximately 300 to 500 demand-provision pairs, coded as taken up, partly taken up, not addressed or contradicted, by two coders, with agreement reported (e.g. Cohen's kappa). The codebook will need to be developed and discussed.
+- Models: compare BM25/TF-IDF retrieval, sentence-embedding retrieval and LLM judges (zero/few-shot), and validate LLM annotation against the human gold standard.
+- Evaluation: precision, recall and F1 against the gold standard, robustness across languages, and a placebo test (do demands from unrelated consultations "appear" in the same proposal at a similar rate?).
+- Analysis: uptake rates by stakeholder type, by law category and by consultation size; descriptive first, then regression with appropriate controls.
+
+##### Outputs
+
+- A documented, reusable linked dataset (consultation, proposal, final act) for the digital acquis.
+- An annotation codebook and a gold-standard dataset of demand-provision matches.
+- A reproducible text-matching pipeline and a comparison of automated approaches.
+- An empirical analysis of which input is reflected in proposals and final acts, and for whom.
+- Recommendations for more transparent, machine-readable reporting of consultation results.
+
+##### Prerequisites
+
+Python, NLP and LLM methods, basic statistics and an interest in EU digital regulation and policy-making.
+
+##### References (indicative)
+
+- Zenner, K., & Marcus, J. S. (2026). [*A dataset of EU legal and policy instruments for the digital world*](https://www.ceps.eu/ceps-publications/a-dataset-of-eu-legal-and-policy-instruments-for-the-digital-world-2/). CEPS.
+- *EU Public Consultations and Feedback Portal: dataset of all public input data to EU legislation, attached files and extraction of textual responses* (to May 2025). Zenodo. [Record](https://zenodo.org/records/19582396). Collection code: [eu_consultations](https://github.com/marioangst/eu_consultations).
+- Walker, V., & Angst, M. (2025). [Promises and pitfalls of using LLMs to identify actor stances in political discourse](https://doi.org/10.1371/journal.pone.0335547). PLoS ONE, 20(11), e0335547.
+</details>
 
 <details class="thesis-summary" markdown="1">
 <summary>
