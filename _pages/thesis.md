@@ -18,7 +18,7 @@ I also supervise students at the [Law & AI specialization of the ELS master](htt
 </details>
 -->
 
-### Thesis topics 2026-2027
+### Thesis topics 2026-2027 (last updated 19.11.2026)
 
 <details class="thesis-summary" markdown="1">
 <summary>
