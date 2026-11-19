@@ -7,7 +7,7 @@ nav: true
 nav_order: 6
 ---
 
-Below is a non-exhaustive list of topics available to DACS bachelor/master students. For general advice about your thesis plan and the process check [this (live) document](https://docs.google.com/document/d/1rPkSTyWMtICGdcwbNSTv0Jb3x0mSEGYG_I9nmQ1Gg9g/edit?usp=sharing) before you reach out to me.
+Below is a non-exhaustive list of topics available to DACS bachelor/master students. These are umbrella topics and you can zoom-in on specific aspects (esp. for a bachelor student the scope needs to be narrowed down so that it's doable). For general advice about your thesis plan and the process check [this (live) document](https://docs.google.com/document/d/1rPkSTyWMtICGdcwbNSTv0Jb3x0mSEGYG_I9nmQ1Gg9g/edit?usp=sharing) before you reach out to me.
 
 I also supervise students at the [Law & AI specialization of the ELS master](https://www.maastrichtuniversity.nl/education/master/programmes/european-law-school-law-ai). Topics include: AI and AI Act, DSA and online platforms, digital consumer protection and genAI. For more information check Canvas.
 
@@ -65,34 +65,40 @@ Python, machine learning, NLP and multimodal LLMs, and an interest in EU digital
 
 </details>
 
-
 <details class="thesis-summary" markdown="1">
 <summary>
-Cross-lingual retrieval of EU legal text
+Cross-jurisdictional retrieval of legally equivalent contract clauses
 </summary>
-Draws on existing work on legal retrieval benchmarks (e.g. BSARD, Louis & Spanakis 2022) and multilingual dense retrieval (e.g. BGE-M3, Chen et al. 2024), and applies them to the setting where a user queries in one EU language and the relevant legal documents are in another. Multilingual legal retrieval is a real gap: most legal IR benchmarks are monolingual, while EU legal practice is inherently multilingual.
+
+Contract clauses in different jurisdictions can serve similar legal functions while differing in wording and structure. This project investigates whether a retrieval system can find legally equivalent clauses across jurisdictions. It uses [LAUKIN](https://www.alphaxiv.org/abs/2606.13184?chatId=01a1f2b7-abdc-7dca-a516-c813b3247eb1), a dataset of English-language contract clauses from Australia, the United Kingdom, and India, with expert-labelled clause pairs indicating whether clauses share the same core legal function and clause type. LAUKIN contains 3,000 labelled clause pairs, alongside additional unlabelled pairs.
 
 ##### Objective (pick some, or zoom in)
-- Compare lexical (BM25), translation-based (translate the query, then BM25), and multilingual dense retrieval on cross-lingual legal retrieval.
-- Quantify the cross-lingual gap: how much retrieval quality drops when query and document languages differ, per language pair.
-- Test whether hybrid retrieval (BM25 + dense, fused) closes the gap, and whether legal-domain fine-tuning helps over general multilingual models.
-- Analyse failure cases, e.g. legal concepts with no exact equivalent across legal systems.
+
+- Focus on one jurisdiction pair, such as Australia and the UK, and test whether a clause from one jurisdiction can retrieve legally equivalent clauses from the other.
+- Compare keyword-based retrieval, such as BM25, with one text-embedding model.
+- Investigate whether combining lexical and embedding-based rankings improves retrieval.
+- Examine cases where equivalent clauses use very different wording, or where similar wording conceals differences in legal function.
 
 ##### How
-- Data: [EUR-Lex](https://eur-lex.europa.eu/content/help/data-reuse/reuse-contents-eurlex-details.html) as the main corpus (the same act exists in up to 24 languages, which gives cross-lingual relevance labels for free), plus [LEXTREME](https://huggingface.co/datasets/joelniklaus/lextreme) for additional multilingual legal text.
-- Task construction: (a) title or summary in language A, relevant document is the same act in language B; (b) topic-based relevance via EuroVoc labels; (c) optionally, real questions from BSARD (French), machine-translated into other languages as a smaller, harder test set.
-- Systems: BM25 (Lucene/OpenSearch/Pyserini), 3-5 multilingual embedding models (multilingual-e5, LaBSE, BGE-M3), an MT pipeline, and hybrid fusion (RRF).
-- Evaluation: nDCG@10, Recall@k, and MRR, reported per language pair. Qualitative review of a sample of failures with a legal-expert colleague.
-- Optional: fine-tune one embedding model on in-domain legal pairs.
+
+- **Data:** Use the labelled clause pairs in [LAUKIN](https://www.alphaxiv.org/abs/2606.13184?chatId=01a1f2b7-abdc-7dca-a516-c813b3247eb1). The dataset (available internally) includes Australia–UK, UK–India, and India–Australia pairs; choose one pair for the core project.
+- **Task:** Treat a clause from one jurisdiction as the query and clauses from the other jurisdiction as candidates. Evaluate only on labelled pairs; do not treat unlabelled pairs as non-relevant.
+- **Models:** Compare BM25 with one off-the-shelf text-embedding model. Combining their rankings can be an optional extension.
+- **Evaluation:** Measure how highly equivalent clauses rank among the labelled candidates, and report a pair-classification metric such as macro-F1 if appropriate. Because the labels do not cover every possible clause pair, the results should not be presented as exhaustive full-corpus recall.
+- **Analysis:** Manually inspect a small sample of false positives and missed equivalent clauses. Consider whether wording overlap or agreement type helps explain the results.
 
 ##### Outputs
-- A reproducible evaluation pipeline and a cross-lingual legal retrieval benchmark (query sets and relevance judgments).
-- A quantitative comparison of methods per language pair, with recommendations for multilingual legal search.
+
+- A reproducible retrieval evaluation for one jurisdiction pair.
+- A comparison of lexical and embedding-based clause matching.
+- An error analysis of when textual similarity does—or does not—reflect legal equivalence.
 
 ##### Prerequisites
 Python, basic NLP and IR (BM25, embeddings), some experience with Hugging Face or sentence-transformers. Legal knowledge is not required.
 
 ##### References (indicative)
+
+- Singh, A., et al. (2026). [LAUKIN: A Multi-jurisdictional Common Law Contract Dataset](https://www.alphaxiv.org/abs/2606.13184?chatId=01a1f2b7-abdc-7dca-a516-c813b3247eb1).
 - Chalkidis, I., Fergadiotis, M., & Androutsopoulos, I. (2021). MultiEURLEX: a multi-lingual and multi-label legal document classification dataset for zero-shot cross-lingual transfer. EMNLP 2021.
 - Louis, A., & Spanakis, G. (2022). A statutory article retrieval dataset in French. ACL 2022 (and more recent papers of Antoine Louis)
 - Chen, J., et al. (2024). BGE M3-Embedding: multi-lingual, multi-functionality, multi-granularity text embeddings. arXiv:2402.03216.
@@ -100,43 +106,135 @@ Python, basic NLP and IR (BM25, embeddings), some experience with Hugging Face o
 - Niklaus, J., Matoshi, V., Rani, P., Galassi, A., Stürmer, M., & Chalkidis, I. (2023). LEXTREME: a multi-lingual and multi-task benchmark for the legal domain. Findings of EMNLP 2023. https://arxiv.org/abs/2301.13126
 </details>
 
+<details class="thesis-summary" markdown="1">
+<summary>
+Prior-case retrieval in European Court of Human Rights judgments
+</summary>
+
+The European Court of Human Rights (ECtHR) regularly refers to earlier judgments when deciding new cases. This project investigates whether information retrieval models can find these cited precedents using the facts of a case as the query. It uses [ECtHR-PCR](https://github.com/TUMLegalTech/ECHR-PCR), a dataset containing case facts, reasoning sections, dates, and citations. The benchmark uses facts as queries and earlier judgments as candidates, making it possible to evaluate retrieval without giving the model the query case’s legal reasoning or citations.
+
+##### Objective (pick some, or zoom in)
+
+- Compare BM25 with one pretrained dense retrieval model for retrieving cited judgments from a case’s facts.
+- Investigate whether dense retrieval finds cited cases that BM25 misses, and vice versa.
+- Analyse a small sample of missed citations and highly ranked but uncited cases.
+- Optionally, compare results for cases involving the same versus different respondent states, if the necessary metadata is available and reliable.
+
+##### How
+
+- **Data:** Use the publicly available [ECtHR-PCR dataset](https://github.com/TUMLegalTech/ECHR-PCR). It contains 15,729 English-language judgments, with facts, reasoning, dates, and extracted citations. The dataset is divided chronologically into training, development, and test sets.
+- **Task:** Use the facts section of a judgment as the query and rank earlier judgments as candidates. Do not provide the query judgment’s reasoning or citation list to the retrieval models, since this could reveal the relevant cases.
+- **Models:** Compare BM25 with one pretrained dense retrieval model. The core project does not require model training.
+- **Evaluation:** Measure Recall@k and MRR against the citations in the dataset. Respect the chronological constraint: candidate judgments must precede the query judgment.
+- **Analysis:** Manually inspect a small sample of missed citations and retrieved-but-uncited judgments. Treat citations as observed relevance labels, not as a complete list of all cases that might be legally relevant.
+- **Optional extension:** Compare retrieval for precedents involving the same versus different respondent states, provided this information can be obtained without substantial manual data cleaning.
+
+##### Outputs
+
+- A reproducible retrieval pipeline for ECtHR judgments.
+- A comparison of lexical and dense prior-case retrieval.
+- An error analysis of missed citations and highly ranked uncited cases.
+- Optionally, an analysis of retrieval performance across respondent states.
+
+##### Prerequisites
+
+Python, basic NLP and IR (BM25, embeddings), some experience with Hugging Face or sentence-transformers. Legal knowledge is not required.
+
+##### References (indicative)
+
+- Santosh, T. Y. S. S., Haddad, R. G., & Grabmair, M. (2024). [ECtHR-PCR: A Dataset for Precedent Understanding and Prior Case Retrieval in the European Court of Human Rights](https://www.alphaxiv.org/abs/2404.00596?chatId=01a1f2b7-abdc-7dca-a516-c813b3247eb1).
+- Chalkidis, I., Fergadiotis, M., & Androutsopoulos, I. (2021). MultiEURLEX: a multi-lingual and multi-label legal document classification dataset for zero-shot cross-lingual transfer. EMNLP 2021.
+- Louis, A., & Spanakis, G. (2022). A statutory article retrieval dataset in French. ACL 2022 (and more recent papers of Antoine Louis)
+- Chen, J., et al. (2024). BGE M3-Embedding: multi-lingual, multi-functionality, multi-granularity text embeddings. arXiv:2402.03216.
+- Thakur, N., et al. (2021). BEIR: a heterogeneous benchmark for zero-shot evaluation of information retrieval models. NeurIPS Datasets and Benchmarks.
+- Niklaus, J., Matoshi, V., Rani, P., Galassi, A., Stürmer, M., & Chalkidis, I. (2023). LEXTREME: a multi-lingual and multi-task benchmark for the legal domain. Findings of EMNLP 2023. https://arxiv.org/abs/2301.13126
+
+</details>
+
+<details class="thesis-summary" markdown="1">
+<summary>
+Cross-lingual retrieval of Belgian legal articles with French and Dutch queries
+</summary>
+
+Belgian legislation is available in both French and Dutch, but legal questions are often asked in just one of those languages. This project investigates whether a retrieval system can find relevant legal articles when the query and the articles are in different languages. It uses bBSARD, which pairs French and Dutch versions of Belgian statutory articles and includes French legal questions and their Dutch translations. The article versions were aligned to the same legislative versions.
+
+##### Objective (pick some, or zoom in)
+
+- Test whether Dutch legal questions can retrieve relevant French legal articles, or vice versa.
+- Compare direct multilingual dense retrieval with a translation-based BM25 approach.
+- Compare cross-lingual retrieval with same-language retrieval as a reference.
+- Examine whether retrieval errors are more common for particular legal topics or types of legal terminology.
+
+##### How
+
+- **Data:** Use [bBSARD](https://huggingface.co/datasets/clips/bBSARD), based on the original [BSARD](https://huggingface.co/datasets/maastrichtlawtech/bsard). It contains parallel French and Dutch Belgian statutory articles, along with French questions and Dutch translations. The Dutch questions were automatically translated and a native speaker checked a sample; some translation issues remained.
+- **Task:** For the core project, use Dutch questions to retrieve relevant articles from the French corpus. The original relevance labels point to French articles; use the article alignment to identify their Dutch counterparts for the reverse-language or same-language reference experiments.
+- **Systems:** Compare (1) direct retrieval using one multilingual embedding model and (2) query translation into the article language followed by BM25. Use same-language BM25 as a reference.
+- **Evaluation:** Report Recall@k and MRR, or another small set of standard retrieval metrics. Keep the query set and candidate corpus fixed across systems.
+- **Analysis:** Review a small sample of missed relevant articles. Note whether errors appear to come from translation, differences in legal terminology, or the retrieval model.
+- **Scope:** The main experiment concerns cross-lingual retrieval **within Belgian law**. It tests whether systems can bridge French and Dutch, not whether legal rules transfer between different jurisdictions.
+
+##### Outputs
+
+- A reproducible cross-lingual retrieval evaluation using French and Dutch queries and legal articles.
+- A comparison of direct multilingual retrieval with translation-based BM25.
+- Same-language reference results and a brief analysis of cross-lingual retrieval failures.
+
+##### Prerequisites
+
+Python and basic NLP or information retrieval. Experience with multilingual embeddings or machine translation is helpful but not required. Legal expertise is not required for the core project.
+
+##### References (indicative)
+
+- Lotfi, E., Banar, N., Yuzbashyan, N., & Daelemans, W. (2024). [Bilingual BSARD: Extending Statutory Article Retrieval to Dutch](https://aclanthology.org/2025.regnlp-1.3.pdf).
+- Louis, A., & Spanakis, G. (2022). [A Statutory Article Retrieval Dataset in French](https://aclanthology.org/2022.acl-long.468/).
+- Goworek, R., Macmillan-Scott, O., & Özyiğit, E. B. (n.d.). [Bridging Language Gaps: Advances in Cross-Lingual Information Retrieval with Multilingual LLMs](https://arxiv.org/search/cs?searchtype=author&query=Goworek,+R).
+
+</details>
 
 <details class="thesis-summary" markdown="1">
 <summary>
 Hybrid legal case similarity (citations plus semantics)
 </summary>
-At Maastricht Law and Tech Lab we have the Case Law Explorer platform (https://app.caselawexplorer.tech/), where you can explore legal cases on the basis of which case cites which previous ones. That approach only takes into account network dynamics (citations). We would like to add the option of semantic text similarity and on precedent retrieval benchmarks such as ECtHR-PCR (Santosh et al. 2024) and apply a fusion framework to court decisions. Citation links are precise but sparse, while text similarity covers every case but can miss doctrinal links, so the question is how best to combine them.
+At Maastricht Law and Tech Lab we have the Case Law Explorer platform (https://app.caselawexplorer.tech/), where you can explore legal cases on the basis of which case cites which previous ones. That approach only takes into account network dynamics (citations). We would like to add the option of semantic text similarity and on precedent retrieval benchmarks such as ECtHR-PCR (Santosh et al. 2024) and apply a fusion framework to court decisions. Citation links are precise but sparse, while text similarity covers every case but can miss doctrinal links, so the question is how best to combine them. [ECtHR-PCR](https://github.com/TUMLegalTech/ECHR-PCR) provides case facts, dates, candidate judgments, and citation links. The dataset uses case facts as queries and earlier judgments as candidates, supporting a chronological evaluation.
 
-#### Objective (pick some, or zoom in)
-- Compare citation-only, semantic-only, and hybrid similarity for recommending related cases.
-- Compare fusion strategies: weighted score fusion, Reciprocal Rank Fusion (Cormack et al. 2009), and optionally a graph-embedding variant (node2vec/GraphSAGE combined with text embeddings).
-- Study cold-start and temporal behaviour: how well does semantic similarity work for recent cases that nobody has cited yet, and how much does performance drift over time?
-- Identify “disagreement cases” (high semantic and low citation similarity, and vice versa) as candidates for cross-jurisdiction recommendations.
-- Optional: check for same-language bias in multilingual embeddings when comparing cases across languages.
+##### Objective (pick some, or zoom in)
 
-#### How
-- Data: [ECtHR-PCR](https://huggingface.co/datasets/RashidHaddad/ECTHR-PCR) as the primary dataset (ready-made citation ground truth), optionally extended with CJEU decisions from EUR-Lex.
-- Citation extraction: for EUR-Lex/CJEU data, parse ECLI/CELEX identifiers and case references (regex plus simple NER), build the citation graph, and report extraction precision and recall. ECtHR-PCR already provides citation links, so extraction work can be limited to the extension corpus.
-- Signals: (a) citation similarity; (b) semantic similarity (multilingual embeddings, with chunking and pooling for long judgments).
-- Evaluation: hold out a subset of citation edges as ground truth and build the citation signal only from the remaining ones, to avoid circularity. Respect time ordering, so that a query case never uses citations from later cases. Complement this with a small manual relevance check of top-ranked results.
-- Visualisation: overlay both signals in one network view (solid edges for citations, dashed for semantic neighbours).
+- Compare text-only retrieval with a hybrid method that uses text similarity and citation links.
+- Test whether citations from textually similar earlier cases help retrieve a query case’s cited precedents.
+- Analyse which cases benefit most from graph-based expansion, such as cases with less familiar facts or fewer matching terms.
+- Optionally compare performance for cases involving the same versus different respondent states, if the required metadata is available.
 
-#### Outputs
-- A pipeline that builds the citation graph and semantic similarity layer from public case law.
-- A quantitative comparison of citation-only, semantic-only, and fused approaches, with analysis of cold-start, temporal, and disagreement cases.
-- A small interactive overlay visualisation.
+##### How
 
-#### Prerequisites
-Python, NLP models, basic graph analysis, (legal) QA and Information Retrieval
+- **Data:** Use the publicly available [ECtHR-PCR dataset](https://github.com/TUMLegalTech/ECHR-PCR), which includes case facts, dates, and extracted citations. It contains a chronological train, development, and test split.
+- **Task:** Use a judgment’s facts as the query and rank earlier judgments. Hold out the query judgment’s citations as relevance labels; do not use those citation links as input to the system.
+- **Systems:** Compare:
+  - **Text-only:** BM25 or one pretrained dense retriever ranks earlier judgments by similarity to the query facts.
+  - **Hybrid:** Retrieve textually similar earlier judgments, then use the citations in those seed cases to expand or rerank candidate precedents. Combine the text and citation rankings with a simple method such as Reciprocal Rank Fusion.
+- **Leakage control:** Build the citation graph only from cases available before the query judgment’s date. Exclude the query case’s own outgoing citation links and any later cases or links.
+- **Evaluation:** Measure Recall@k and MRR against the query case’s held-out citations. Treat citations as observed relevance labels, not as an exhaustive list of all legally relevant cases.
+- **Analysis:** Inspect a small sample of cases where the hybrid system improves or worsens retrieval. Check whether the cited neighbors provide useful precedents or instead introduce unrelated cases through shared citation patterns.
+- **Scope:** Keep the core project to one court, one text retriever, and one simple graph-expansion or fusion method. Building a new citation graph or training graph neural networks can be optional extensions.
 
-References (indicative)
+##### Outputs
+
+- A reproducible prior-case retrieval pipeline using text and citation information.
+- A comparison of text-only and hybrid retrieval.
+- An error analysis of cases where citation-based expansion helps or hurts.
+
+##### Prerequisites
+
+Python, basic NLP or information retrieval, and basic familiarity with graph data. Legal expertise is not required for the core evaluation.
+
+##### References (indicative)
+
 - Santosh, T.Y.S.S., Haddad, R., & Grabmair, M. (2024). ECtHR-PCR: a dataset for precedent understanding and prior case retrieval in the European Court of Human Rights. LREC-COLING 2024. https://aclanthology.org/2024.lrec-main.486/
 - Santosh, T.Y.S.S., Olguín Nolasco, I. M., & Grabmair, M. LeCoPCR: Legal concept-guided prior case retrieval for European Court of Human Rights cases. https://arxiv.org/pdf/2501.14114
 - Arosemena, G., van Dijck, G., & Moerland, R. (2026). Legal Network Analysis. (1.0.0 ed.) Maastricht University Press. https://doi.org/10.26481/mup.2606
 - Van Kuppevelt, D., Van Dijck, G., & Schaper, M. (2020). Purposes and challenges of legal citation network analysis on case law. In Computational legal studies (pp. 265-292). Edward Elgar Publishing.
 
 </details>
-
 
 <details class="thesis-summary" markdown="1">
 <summary>
